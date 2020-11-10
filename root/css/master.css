@@ -1,0 +1,161 @@
+/*
+
+
+Universal styling
+
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  background-color: #fffefb;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+/*
+
+
+
+
+Nav-bar styling
+
+
+
+
+
+*/
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+
+.nav-links {
+  width: 70%;
+  border: solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  display: flex;
+}
+/*
+
+
+
+
+Universal font styling
+
+
+
+
+*/
+h1,
+h2,
+h3,
+p,
+a {
+  color: #021d3b;
+  /* regular white is replacement color for other pages */
+}
+
+h1,
+h2,
+footer p,
+a {
+  font-family: "DM Mono", monospace;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  /* bortset fra The opportunity som har 18px georgia som p-tekst */
+}
+/*
+
+
+
+
+Footer styling
+
+
+
+
+*/
+footer h2 {
+  font-size: 2.5rem;
+}
+
+footer p {
+  font-size: 2rem;
+}
+/*
+
+
+
+
+Width styling
+
+
+
+
+*/
+.hero-content-container,
+.problem-content-container,
+.opportunity-content-container,
+.footer-content-container {
+  width: 95%;
+  margin: 0 auto;
+}
+/*
+
+
+
+
+Media queries
+
+
+
+
+*/
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
+@media only screen and (min-width: px) {
+}
