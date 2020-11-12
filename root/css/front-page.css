@@ -69,6 +69,27 @@ Description of the problem stying
 
 */
 Skriv din kode her til problem
+.problem-main-container {
+  display: flex;
+  flex-direction: column;
+}
+.problem-content-container {
+
+}
+.problem-text-container h1 {
+  padding: 2rem 0;
+}
+.problem-text-container p {
+  padding: 1rem 0;
+}
+.problem-text-color-container {
+  color: #ff1e00;
+}
+.problem-image-container {
+  background-color: red;
+  height: 400px;
+}
+
 /*
 
 
@@ -94,7 +115,7 @@ Media queries
 */
 @media only screen and (min-width 750px) {
   /*
-  denne funker ikke 
+  denne funker ikke
   .nav-links a:nth-child(1) {
     text-decoration: underline 2px blue;
   }*/
