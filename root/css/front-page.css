@@ -3,13 +3,60 @@
 
 
 
+Navbar styling
+
+
+
+
+*/
+.nav-links a:nth-child(1) {
+  text-decoration: underline #ff1e00;
+}
+
+.nav-links a:nth-child(2),
+.nav-links a:nth-child(3) {
+  text-decoration: none;
+}
+
+/*
+
+
+
+
 Hero display styling
 
 
 
 
 */
-Skriv din kode her til hero
+.hero-content-container {
+  padding: 1rem 0;
+}
+
+.hero-content-image {
+  background-color: blue;
+  height: 100px;
+}
+
+.hero-text-slogan {
+  padding: 0 0 2rem;
+}
+
+.hero-content-text h1 {
+  padding: 2rem 0;
+  width: 60%;
+}
+
+.hero-text-paragraph {
+  padding: 0 0 2rem;
+}
+
+.hero-content-text hr {
+  width: 25%;
+  border-width: 1px;
+  border-color: #ff1e00;
+  border-style: solid;
+}
 /*
 
 
@@ -34,3 +81,29 @@ The opportunity
 
 */
 Skriv dine kode her til opportunity
+/*
+
+
+
+
+Media queries
+
+
+
+
+*/
+@media only screen and (min-width 750px) {
+  /*
+  denne funker ikke 
+  .nav-links a:nth-child(1) {
+    text-decoration: underline 2px blue;
+  }*/
+}
+@media only screen and (min-width px) {
+}
+@media only screen and (min-width px) {
+}
+@media only screen and (min-width px) {
+}
+@media only screen and (min-width px) {
+}
