@@ -147,8 +147,10 @@ The opportunity
   padding-bottom: 6%;
 
 }
-.opportunity-facts-container h1,
-.opportunity-facts-container p{
+.opportunity-facts-container h2,
+.opportunity-facts-container p,
+.opportunity-CTA-content p,
+.opportunity-stories-tittel h2{
   color: white;
   margin-top: 3%;
 }
@@ -159,14 +161,23 @@ The opportunity
   flex-direction: column;
   justify-content: center;
   background-color: blue;
+
 }
 .opportunity-stories-tittel{
   display: flex;
   width: 85%;
   margin: 0 auto;
   margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
 }
+.opportunity-stories-tittel h2 {
+  font-size: 2.5rem;
+  font-family: "DM Mono", monospace;
+}
+.opportunity-stories-tittel-orange {
+  color: #FF1E00;
+}
+
 .opportunity-stories-container{
   display: flex;
   flex-direction: column;
@@ -180,17 +191,46 @@ The opportunity
   width: 100%;
   height: auto;
 }
-.opportunity-stories.text {
+.opportunity-stories-text {
   margin-left: 6%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.opportunity-CTA-container {
+.opportunity-stories-text-red {
+  color: red;
+  text-decoration: underline;
+}
+.opportunity-CTA-container-background {
   display: flex;
+  width: 100%;
+  height: auto;
+  background-color: darkblue;
 }
 .opportunity-CTA-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4%;
+  background-color: darkblue;
+  margin-bottom: 4%;
+}
+
+.opportunity-CTA-button {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.opportunity-CTA-button p {
+  color: darkblue;
+  margin 4%;
 }
 
 
@@ -208,7 +248,7 @@ Media queries
 @media only screen and (min-width: 750px) {
 }
 
-@media only screen and (min-width px) {
+@media only screen and (min-width: 1000px) {
 }
 
 @media only screen and (min-width px) {
