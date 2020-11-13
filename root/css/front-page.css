@@ -1,3 +1,6 @@
+main {
+  width: 100%;
+}
 /*
 
 
@@ -110,7 +113,87 @@ The opportunity
 
 
 */
-Skriv dine kode her til opportunity
+#opportunity-main-container {
+  width: 100%;
+  height: 1000px;
+
+}
+.opportunity-content-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.opportunity-main-facts {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: darkblue;
+}
+.opportunity-facts-container{
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+  border: 1px solid white;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 4%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding: 4%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+
+}
+.opportunity-facts-container h1,
+.opportunity-facts-container p{
+  color: white;
+  margin-top: 3%;
+}
+.opportunity-main-stories {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: blue;
+}
+.opportunity-stories-tittel{
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.opportunity-stories-container{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 4%;
+}
+
+.opportunity-stories-container img {
+  width: 100%;
+  height: auto;
+}
+.opportunity-stories.text {
+  margin-left: 6%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.opportunity-CTA-container {
+  display: flex;
+}
+.opportunity-CTA-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /*
 
 
@@ -121,7 +204,7 @@ Media queries
 
 
 
-*/ 
+*/
 @media only screen and (min-width: 750px) {
 }
 
