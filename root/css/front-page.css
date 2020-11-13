@@ -29,13 +29,24 @@ Hero display styling
 
 
 */
+#hero-display-main-container {
+  width: 100%;
+  height: auto;
+}
+
+.hero-display-width-container {
+}
+
 .hero-content-container {
   padding: 1rem 0;
 }
 
 .hero-content-image {
-  background-color: blue;
-  height: 100px;
+  width: 100%;
+}
+
+.hero-content-image img {
+  width: 100%;
 }
 
 .hero-text-slogan {
@@ -68,13 +79,11 @@ Description of the problem stying
 
 
 */
-Skriv din kode her til problem
 .problem-main-container {
   display: flex;
   flex-direction: column;
 }
 .problem-content-container {
-
 }
 .problem-text-container h1 {
   padding: 2rem 0;
@@ -112,16 +121,13 @@ Media queries
 
 
 
-*/
-@media only screen and (min-width 750px) {
-  /*
-  denne funker ikke
-  .nav-links a:nth-child(1) {
-    text-decoration: underline 2px blue;
-  }*/
+*/ 
+@media only screen and (min-width: 750px) {
 }
+
 @media only screen and (min-width px) {
 }
+
 @media only screen and (min-width px) {
 }
 @media only screen and (min-width px) {
