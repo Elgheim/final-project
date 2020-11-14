@@ -222,6 +222,11 @@ Navbar
 
 
   */
+
+  #hero-display-main-container {
+  display none;
+    border: none;
+  }
   #hero-display-main-container {
     background-image: url(../images/front-page/hero-display.png);
     background-repeat: no-repeat;
