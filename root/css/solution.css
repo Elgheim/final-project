@@ -9,11 +9,3 @@ Navbar styling
 
 
 */
-.nav-links a:nth-child(2) {
-  text-decoration: underline #ff1e00;
-}
-
-.nav-links a:nth-child(1),
-.nav-links a:nth-child(3) {
-  text-decoration: none;
-}

@@ -9,14 +9,7 @@ Navbar styling
 
 
 */
-.nav-links a:nth-child(3) {
-  text-decoration: underline #ff1e00;
-}
 
-.nav-links a:nth-child(1),
-.nav-links a:nth-child(2) {
-  text-decoration: none;
-}
 /*
 
 
@@ -129,11 +122,11 @@ Media queries
     padding: 0 0 3rem;
   }
   .top-text-heading h1 {
-    padding-right: 2rem;
+    padding-right: 3rem;
   }
   .top-text-links a {
     font-size: 2rem;
-    padding: 0 2rem;
+    padding: 0 2.5rem;
   }
   .steps-content-container {
     display: flex;

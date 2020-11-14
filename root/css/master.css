@@ -76,10 +76,21 @@ nav {
   font-size: 1rem;
   font-weight: 500;
   padding: 0 1rem 0;
+  text-decoration: none;
 }
 
 .period {
   color: #ff1e00;
+}
+.nav-underline {
+  display: flex;
+  flex-direction: column;
+}
+.nav-underline span:nth-child(2) {
+  border-bottom: #ff1e00 solid 2px;
+  padding: 0.5rem 0 0;
+  width: 130px;
+  margin-left: 3.15rem;
 }
 
 /*
@@ -243,6 +254,7 @@ Navbar
     background-image: url(../images/front-page/hero-display.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 5rem 0;
   }
   .hero-display-width-container {
