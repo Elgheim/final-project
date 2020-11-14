@@ -50,6 +50,8 @@ Nav-bar styling
 
 */
 nav {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
 }
 
 .nav-container {
@@ -146,6 +148,19 @@ footer h2 {
 footer p {
   font-size: 2rem;
 }
+.footer-content-container {
+  padding: 5rem 0;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 2rem;
+}
+.footer-heading span {
+  border-bottom: #ff1e00 solid 3px;
+  padding: 0.5rem 0;
+  width: 75px;
+}
 /*
 
 
@@ -161,7 +176,9 @@ Width styling
 .hero-display-width-container,
 .problem-content-container,
 .opportunity-content-container,
-.footer-content-container {
+.footer-content-container,
+.top-text-content-container,
+.steps-content-container {
   width: 95%;
   margin: 0 auto;
   max-width: 1100px;
@@ -222,11 +239,6 @@ Navbar
 
 
   */
-
-  #hero-display-main-container {
-  display none;
-    border: none;
-  }
   #hero-display-main-container {
     background-image: url(../images/front-page/hero-display.png);
     background-repeat: no-repeat;

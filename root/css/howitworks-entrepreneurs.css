@@ -1,0 +1,155 @@
+/*
+
+
+
+
+Navbar styling
+
+
+
+
+*/
+.nav-links a:nth-child(3) {
+  text-decoration: underline #ff1e00;
+}
+
+.nav-links a:nth-child(1),
+.nav-links a:nth-child(2) {
+  text-decoration: none;
+}
+/*
+
+
+
+
+Top text section
+
+
+
+
+*/
+#top-text-main-container {
+  width: 100%;
+  padding: 2rem 0 0;
+}
+.top-text-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 1rem;
+}
+.top-text-links {
+  display: flex;
+}
+.link-border {
+  display: flex;
+  flex-direction: column;
+}
+.link-border span {
+  border-bottom: #ff1e00 solid 2px;
+  padding: 0.5rem 0 0;
+  margin-left: 2rem;
+}
+.top-text-links a {
+  text-decoration: none;
+}
+.top-text-links a:nth-child(1) {
+}
+.top-text-links a:nth-child(2) {
+  color: #9c9c9c;
+}
+/*
+
+
+
+
+Steps styling
+
+
+
+
+*/
+#steps-main-container,
+#create-project-main-container,
+#choose-contributors-main-container {
+  padding: 2rem 0;
+  border-bottom: #ff1e00 2px solid;
+}
+.steps-text-column {
+  display: flex;
+  flex: 1 0 500px;
+  padding: 2rem 0;
+}
+.steps-number {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex: 1;
+}
+.steps-number p {
+  font-size: 7.8rem;
+  color: #ff1e00;
+  padding: 0.5rem 0 0;
+}
+.steps-text {
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+}
+.steps-text p {
+  padding: 1rem 0;
+}
+.steps-image-column {
+  height: 200px;
+  width: 100%;
+  background-color: blue;
+}
+.image-sizing-container {
+  border: solid red;
+  height: 50%;
+  width: 50%;
+}
+/*
+
+
+
+
+Media queries
+
+
+
+
+*/
+@media only screen and (min-width: 800px) {
+  #top-text-main-container {
+    padding: 5rem 0 0;
+  }
+  .top-text-content-container {
+    flex-direction: row;
+    padding: 0 0 3rem;
+  }
+  .top-text-heading h1 {
+    padding-right: 2rem;
+  }
+  .top-text-links a {
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
+  .steps-content-container {
+    display: flex;
+  }
+  .steps-text-column,
+  .steps-number {
+    align-items: center;
+  }
+  .steps-text h2 {
+    padding: 0 0 1rem;
+  }
+  .steps-number {
+    padding-bottom: 10.5rem;
+  }
+  .steps-image-column {
+    order: 1;
+    height: 600px;
+  }
+}
