@@ -104,15 +104,14 @@ Steps styling
 .steps-text p {
   padding: 1rem 0;
 }
-.steps-image-column {
-  height: 200px;
-  width: 100%;
-  background-color: blue;
-}
 .image-sizing-container {
-  border: solid red;
-  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+.image-sizing-container img {
   width: 50%;
+  display: flex;
+  justify-content: center;
 }
 /*
 
@@ -144,7 +143,6 @@ Media queries
     display: flex;
     justify-content: flex-start;
     flex: 2.125;
-    border: solid blue;
   }
   .top-text-links a {
     font-size: 2rem;
@@ -152,6 +150,7 @@ Media queries
   }
   .steps-content-container {
     display: flex;
+    padding: 2rem 0 4rem;
   }
   .steps-text-column,
   .steps-number {
@@ -170,10 +169,13 @@ Media queries
   }
   .steps-image-column {
     order: 1;
-    height: 600px;
+    height: 500px;
   }
   .link-border span {
     padding: 0.5rem 0 0;
     margin-left: 2rem;
+  }
+  .image-sizing-container img {
+    width: 90%;
   }
 }
