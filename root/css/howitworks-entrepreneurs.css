@@ -9,7 +9,9 @@ Navbar styling
 
 
 */
-
+.nav-links a {
+  font-weight: 500;
+}
 /*
 
 
@@ -31,8 +33,18 @@ Top text section
   align-items: center;
   padding: 0 0 1rem;
 }
+.top-text-heading h1,
+.top-text-links a {
+  font-weight: 500;
+}
 .top-text-links {
   display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5rem 0 1rem;
+}
+.top-text-links a {
+  padding: 0 1.5rem 0;
 }
 .link-border {
   display: flex;
@@ -41,7 +53,7 @@ Top text section
 .link-border span {
   border-bottom: #ff1e00 solid 2px;
   padding: 0.5rem 0 0;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 .top-text-links a {
   text-decoration: none;
@@ -124,6 +136,16 @@ Media queries
   .top-text-heading h1 {
     padding-right: 3rem;
   }
+  .top-text-heading {
+    display: flex;
+    flex: 1;
+  }
+  .top-text-links {
+    display: flex;
+    justify-content: flex-start;
+    flex: 2.125;
+    border: solid blue;
+  }
   .top-text-links a {
     font-size: 2rem;
     padding: 0 2.5rem;
@@ -138,11 +160,20 @@ Media queries
   .steps-text h2 {
     padding: 0 0 1rem;
   }
-  .steps-number {
+  .steps-number:nth-child(1) {
     padding-bottom: 10.5rem;
+  }
+  #number-3,
+  #number-2 {
+    padding-bottom: 17rem;
+    height: 100%;
   }
   .steps-image-column {
     order: 1;
     height: 600px;
+  }
+  .link-border span {
+    padding: 0.5rem 0 0;
+    margin-left: 2rem;
   }
 }

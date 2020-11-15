@@ -77,8 +77,12 @@ nav {
   font-weight: 500;
   padding: 0 1rem 0;
   text-decoration: none;
+  display: flex;
+  margin: 0;
 }
-
+.nav-links-height {
+  display: flex;
+}
 .period {
   color: #ff1e00;
 }
