@@ -12,7 +12,9 @@ Navbar styling
 
 
 */
-
+.nav-links a{
+  text-decoration: none;
+}
 
 /*
 
@@ -46,7 +48,7 @@ Hero display styling
 }
 
 .hero-text-slogan {
-  padding: 2rem 0 2rem;
+  padding: 0 0 2rem;
 }
 
 .hero-content-text h1 {
@@ -153,7 +155,7 @@ The opportunity
   height: auto;
   flex-direction: column;
   justify-content: center;
-  background-color: blue;
+  background-image: url(../images/front-page/johannesburg.png);
 
 }
 .opportunity-stories-tittel{
@@ -277,9 +279,11 @@ Media queries
     max-height: 70%;
   }
   .opportunity-CTA-container-background {
+    display: flex;
     background-color: #EB3C24;
     align-items: flex-start;
     justify-content: flex-start;
+    width: 100%;
   }
   .opportunity-CTA-content {
     padding: 1%;
