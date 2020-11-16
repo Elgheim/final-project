@@ -87,14 +87,14 @@ Description of the problem stying
   padding: 2rem 0;
 }
 .problem-text-container p {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 .problem-text-color-container {
   color: #ff1e00;
 }
-.problem-image-container {
-  background-color: red;
-  height: 400px;
+.problem-image-container img {
+  width: 100%;
 }
 
 /*
@@ -213,7 +213,7 @@ The opportunity
   background-color: #051325;
   margin-bottom: 4%;
 }
-
+/*
 .opportunity-CTA-button {
   background-color: white;
   display: flex;
@@ -224,11 +224,25 @@ The opportunity
   margin-top: 8%;
   margin-bottom: 5%;
 }
+*/
+.opportunity-CTA-button {
+  border: none;
+  color: #051325;
+  background-color: white;
+  width: 60%;
+  height: 3rem;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.opportunity-CTA-button a {
+  text-decoration: none;
+}
+/*
 .opportunity-CTA-button p {
   color: #051325;
   padding: 2.5%;
-
 }
+*/
 
 /* opportunity fonts and sizes */
 
@@ -249,7 +263,10 @@ Media queries
 
 
 */
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 800px) {
+  .problem-content-container {
+    padding-top: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -289,6 +306,19 @@ Media queries
     padding: 1%;
     width: 40%;
   }
+  .problem-content-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2.5rem 0;
+  }
+  .problem-text-container {
+    padding-right: 7rem;
+    flex: 1;
+  }
+  .problem-image-container {
+    flex: 1;
+  }
+
 
 
 }
