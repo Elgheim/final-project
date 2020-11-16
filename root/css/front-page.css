@@ -12,10 +12,28 @@ Navbar styling
 
 
 */
-.nav-links a{
+.nav-links a {
   text-decoration: none;
 }
-
+.nav-underline1 span:nth-child(2) {
+  border-bottom: #ff1e00 solid 2px;
+  padding: 0.5rem 0 0;
+  width: 75px;
+  margin-left: 1rem;
+}
+.nav-underline2 span:nth-child(2),
+.nav-underline3 span:nth-child(2) {
+  border-bottom: #ffffff solid 2px;
+  padding: 0.5rem 0 0;
+  width: 75px;
+  margin-left: 1rem;
+}
+.nav-underline2:hover,
+.nav-underline2:focus,
+.nav-underline3:hover,
+.nav-underline3:focus {
+  border-bottom: #ff1e00 solid 2px;
+}
 /*
 
 
@@ -111,7 +129,6 @@ The opportunity
 #opportunity-main-container {
   width: 100%;
   height: 1000px;
-
 }
 .opportunity-content-container {
   width: 100%;
@@ -125,7 +142,7 @@ The opportunity
   height: auto;
   background-color: #051325;
 }
-.opportunity-facts-container{
+.opportunity-facts-container {
   display: flex;
   flex-direction: column;
   background-color: #051325;
@@ -140,12 +157,11 @@ The opportunity
   padding: 4%;
   padding-top: 6%;
   padding-bottom: 6%;
-
 }
 .opportunity-facts-container h2,
 .opportunity-facts-container p,
 .opportunity-CTA-content p,
-.opportunity-stories-tittel h2{
+.opportunity-stories-tittel h2 {
   color: white;
   margin-top: 3%;
 }
@@ -156,9 +172,8 @@ The opportunity
   flex-direction: column;
   justify-content: center;
   background-image: url(../images/front-page/johannesburg.png);
-
 }
-.opportunity-stories-tittel{
+.opportunity-stories-tittel {
   display: flex;
   width: 85%;
   margin: 0 auto;
@@ -170,10 +185,10 @@ The opportunity
   font-family: "DM Mono", monospace;
 }
 .opportunity-stories-tittel-orange {
-  color: #EB3C24;
+  color: #eb3c24;
 }
 
-.opportunity-stories-container{
+.opportunity-stories-container {
   display: flex;
   flex-direction: column;
   width: 85%;
@@ -193,7 +208,7 @@ The opportunity
   margin-bottom: 4%;
 }
 .opportunity-stories-text-red {
-  color: #EB3C24;
+  color: #eb3c24;
   text-decoration: underline;
 }
 .opportunity-CTA-container-background {
@@ -263,9 +278,28 @@ Media queries
 
 
 */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
   .problem-content-container {
     padding-top: 2.5rem;
+  }
+  .nav-underline1 span:nth-child(2) {
+    border-bottom: #ff1e00 solid 2px;
+    padding: 0.5rem 0 0;
+    width: 130px;
+    margin-left: 3rem;
+  }
+  .nav-underline2 span:nth-child(2),
+  .nav-underline3 span:nth-child(2) {
+    border-bottom: #ffffff solid 2px;
+    padding: 0.5rem 0 0;
+    width: 75px;
+    margin-left: 1rem;
+  }
+  .nav-underline2:hover,
+  .nav-underline2:focus,
+  .nav-underline3:hover,
+  .nav-underline3:focus {
+    border-bottom: #ff1e00 solid 2px;
   }
 }
 
@@ -297,7 +331,7 @@ Media queries
   }
   .opportunity-CTA-container-background {
     display: flex;
-    background-color: #EB3C24;
+    background-color: #eb3c24;
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
@@ -318,9 +352,6 @@ Media queries
   .problem-image-container {
     flex: 1;
   }
-
-
-
 }
 
 @media only screen and (min-width px) {

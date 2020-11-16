@@ -9,3 +9,35 @@ Navbar styling
 
 
 */
+
+.nav-underline2 span:nth-child(2) {
+  border-bottom: #ff1e00 solid 2px;
+  padding: 0.5rem 0 0;
+  width: 75px;
+  margin-left: 1rem;
+}
+.nav-underline1 span:nth-child(2),
+.nav-underline3 span:nth-child(2) {
+  border-bottom: #ffffff solid 2px;
+  padding: 0.5rem 0 0;
+  width: 75px;
+  margin-left: 1rem;
+}
+/*
+
+
+
+Media queries
+
+
+
+
+*/
+@media only screen and (min-width: 600px) {
+  .nav-underline2 span:nth-child(2) {
+    border-bottom: #ff1e00 solid 2px;
+    padding: 0.5rem 0 0;
+    width: 138px;
+    margin-left: 3rem;
+  }
+}
