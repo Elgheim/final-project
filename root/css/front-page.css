@@ -123,12 +123,12 @@ The opportunity
   display: flex;
   width: 100%;
   height: auto;
-  background-color: darkblue;
+  background-color: #051325;
 }
 .opportunity-facts-container{
   display: flex;
   flex-direction: column;
-  background-color: darkblue;
+  background-color: #051325;
   border: 1px solid white;
   width: 100%;
   margin: 0 auto;
@@ -163,14 +163,14 @@ The opportunity
   width: 85%;
   margin: 0 auto;
   margin-top: 4%;
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 .opportunity-stories-tittel h2 {
   font-size: 2.5rem;
   font-family: "DM Mono", monospace;
 }
 .opportunity-stories-tittel-orange {
-  color: #FF1E00;
+  color: #EB3C24;
 }
 
 .opportunity-stories-container{
@@ -180,6 +180,7 @@ The opportunity
   margin: 0 auto;
   background-color: white;
   margin-bottom: 4%;
+  margin-top: 3%;
 }
 
 .opportunity-stories-container img {
@@ -192,14 +193,14 @@ The opportunity
   margin-bottom: 4%;
 }
 .opportunity-stories-text-red {
-  color: red;
+  color: #EB3C24;
   text-decoration: underline;
 }
 .opportunity-CTA-container-background {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: darkblue;
+  background-color: #051325;
 }
 .opportunity-CTA-content {
   display: flex;
@@ -209,7 +210,7 @@ The opportunity
   width: 80%;
   margin: 0 auto;
   margin-top: 4%;
-  background-color: darkblue;
+  background-color: #051325;
   margin-bottom: 4%;
 }
 
@@ -224,10 +225,18 @@ The opportunity
   margin-bottom: 5%;
 }
 .opportunity-CTA-button p {
-  color: darkblue;
-  margin 4%;
+  color: #051325;
+  padding: 2.5%;
+
 }
 
+/* opportunity fonts and sizes */
+
+.opportunity-stories-tittel h2,
+.opportunity-stories-text p,
+.opportunity-CTA-content p {
+  font-family: "DM Mono", monospace;
+}
 
 /*
 
@@ -244,6 +253,42 @@ Media queries
 }
 
 @media only screen and (min-width: 1000px) {
+  .opportunity-content-container {
+    flex-direction: row;
+  }
+  .opportunity-main-facts,
+  .opportunity-main-stories {
+    width: 50%;
+  }
+  .opportunity-facts-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+  }
+  .opportunity-stories-text {
+    margin-right: 5%;
+  }
+
+  .opportunity-stories-container {
+    flex-direction: row;
+  }
+  .opportunity-stories-container img {
+    max-width: 50%;
+  }
+  .opportunity-facts-container {
+    max-height: 70%;
+  }
+  .opportunity-CTA-container-background {
+    background-color: #EB3C24;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .opportunity-CTA-content {
+    padding: 1%;
+    width: 40%;
+  }
+
+
 }
 
 @media only screen and (min-width px) {
