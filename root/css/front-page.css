@@ -12,9 +12,7 @@ Navbar styling
 
 
 */
-.nav-links a{
-  text-decoration: none;
-}
+
 
 /*
 
@@ -48,7 +46,7 @@ Hero display styling
 }
 
 .hero-text-slogan {
-  padding: 0 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .hero-content-text h1 {
