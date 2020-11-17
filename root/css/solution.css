@@ -24,10 +24,7 @@ Navbar styling
   margin-left: 1rem;
 }
 
-main {
-  max-width: 1100px;
-  margin: 0 auto;
-}
+
 /*
 
 
@@ -49,6 +46,8 @@ tittel
   display: flex;
   width: 100%;
   flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .tittel-container h1 {
   color: white;
@@ -81,6 +80,8 @@ Main container
   display: flex;
   width: 100%;
   flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .problems-main-container{
   display: flex;
@@ -208,8 +209,44 @@ Call to Action
 */
 
 #CTA-main-container {
+  display: flex;
+  width: 100%;
+  background-color: #051325;
 
+}
+.CTA-content-container {
+  display: flex;
+  width: 80%;
+  max-width: 300px;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
 
+.CTA-text {
+  display: flex;
+  width: 60%;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.CTA-text p{
+  color: white;
+  font-size: 2.1rem;
+}
+.CTA-button {
+  border: none;
+  color: #051325;
+  background-color: white;
+  width: 60%;
+  height: 3rem;
+  margin-top: 8%;
+  margin-bottom: 20%;
+}
+.CTA-button a {
+  text-decoration: none;
 }
 
 /*
@@ -262,6 +299,13 @@ Media queries
   }
   .beDone-text-image-desktop {
     display: flex;
+  }
+
+  .CTA-button {
+    margin-bottom: 30%;
+  }
+  .CTA-text {
+    margin-top: 30%;
   }
 
 
