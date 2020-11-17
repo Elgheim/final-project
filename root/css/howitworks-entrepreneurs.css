@@ -148,6 +148,7 @@ Media queries
   navbar
 
   */
+
   .nav-underline1 {
     width: 130px;
   }
@@ -175,6 +176,15 @@ Media queries
   }
   /*
 
+
+  top text
+
+
+  */
+}
+@media only screen and (min-width: 900px) {
+  /*
+
   top text display
 
   */
@@ -190,7 +200,7 @@ Media queries
   }
   .top-text-heading {
     display: flex;
-    flex: 0.75;
+    flex: 1;
 
     margin: 0;
   }
@@ -224,7 +234,6 @@ Media queries
   }
   .steps-image-column {
     order: 1;
-    height: 500px;
   }
   .link-border1 span,
   .link-border2 span {
