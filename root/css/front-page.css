@@ -172,12 +172,13 @@ The opportunity
   flex-direction: column;
   justify-content: center;
   background-image: url(../images/front-page/johannesburg2.png);
+  padding-bottom: 3%
 }
 .opportunity-stories-tittel {
   display: flex;
   width: 85%;
   margin: 0 auto;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-bottom: 4%;
 }
 .opportunity-stories-tittel h2 {
@@ -191,8 +192,8 @@ The opportunity
   width: 85%;
   margin: 0 auto;
   background-color: white;
-  margin-bottom: 4%;
-  margin-top: 3%;
+  margin-bottom: 3%;
+
 }
 
 .opportunity-stories-container img {

@@ -1,5 +1,15 @@
+
+
+
 /*
 
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #021D3B;
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
 
 
@@ -9,6 +19,7 @@ Navbar styling
 
 
 */
+
 
 .nav-underline2 span:nth-child(2) {
   border-bottom: #ff1e00 solid 2px;
@@ -39,7 +50,9 @@ tittel
 #tittel {
   display: flex;
   width: 100%;
+  height:auto;
   background-color: #021D3B;
+  margin-bottom: -1px;
 
 }
 .tittel-container {
@@ -110,7 +123,7 @@ Main container
 }
 .problem-text-image-desktop {
   display: none;
-  flex: 1.5;
+  flex: 1.10;
   background-image: url(../images/our-soloution/barn.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,7 +131,7 @@ Main container
 }
 .beDone-text-image-desktop {
   display: none;
-  flex: 1.5;
+  flex: 1.10;
   background-image: url(../images/our-soloution/møte.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +139,7 @@ Main container
 }
 .soloution-text-image-desktop {
   display: none;
-  flex: 1.5;
+  flex: 1.10;
   background-image: url(../images/our-soloution/mockup.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,7 +149,7 @@ Main container
   display: flex;
   width: 100%;
   flex-direction: column;
-  flex: 2;
+  flex: 1;
 }
 .problems-text-card-1,
 .problems-text-card-2,
@@ -161,8 +174,13 @@ Main container
   flex: 1;
   margin-left: 4%;
   margin-bottom: 4%;
+  margin-top: 4%;
   justify-content: center;
   align-items: flex-start;
+}
+.bulletpoint {
+  color: #FF1E00;
+  font-size: 2.5rem;
 }
 
 .problems-text-content {
@@ -196,6 +214,8 @@ Main container
   width: 100%;
   flex-direction: column;
 }
+
+
 
 /*
 
