@@ -27,6 +27,151 @@ Navbar styling
 
 
 
+tittel
+
+
+
+
+*/
+
+#tittel {
+  display: flex;
+  width: 100%;
+  background-color: #021D3B;
+
+}
+.tittel-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.tittel-container h1 {
+  color: white;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 2.5rem;
+}
+
+.tittel-container hr {
+  width: 95px;
+  margin-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 10%;
+  border: 2px solid #FF1E00;
+
+}
+
+/*
+
+
+
+Main container
+
+
+
+
+*/
+
+#main-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.problems-main-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.problems-tittel-container {
+  display: flex;
+  width: 100%;
+  background-color: #021D3B;
+}
+.problems-tittel-container h2 {
+  color: white;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-top: 12%;
+  margin-bottom: 6%;
+}
+.problems-image-mobile img {
+  max-width: 100%;
+  height: auto;
+}
+.problems-text-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.problems-text-card-1,
+.problems-text-card-2,
+.problems-text-card-3 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.problems-text-card-1 {
+  background-color: #FFFFFF;
+}
+.problems-text-card-2 {
+  background-color: #F5F7FB;
+}
+.problems-text-card-3 {
+  background-color: #E3E6EE;
+}
+
+.problems-text-period {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+}
+.problems-text-content {
+  display: flex;
+  flex: 8;
+  margin-top: 4%;
+  margin-right: 4%;
+}
+
+.problems-text-content-1 {
+  background-color:
+}
+.problems-text-content-2 {
+  background-color: #F5F7FB;
+}
+.problems-text-content-3 {
+  background-color: #E3E6EE;
+}
+
+
+.beDone-main-container {
+
+}
+
+.solution-main-container {
+
+}
+
+/*
+
+
+
+Call to Action
+
+
+
+
+*/
+
+#CTA-main-container {
+
+
+}
+
+/*
+
+
+
 Media queries
 
 
