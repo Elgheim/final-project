@@ -1,0 +1,84 @@
+/*
+
+
+
+steps styling
+
+
+
+*/
+#steps-main-container,
+#create-project-main-container,
+#choose-contributors-main-container {
+  padding: 2rem 0;
+  border-bottom: #842ed9 2px solid;
+}
+.steps-number p {
+  color: #842ed9;
+}
+.link-border2 span {
+  border-bottom: #842ed9 solid 2px;
+  padding: 0.5rem 0 0;
+  margin-left: 1.5rem;
+}
+.link-border1 span {
+  width: 120px;
+  display: none;
+}
+.link-border2 span {
+  width: 97px;
+  display: block;
+}
+.link-border1 {
+  padding: 0;
+  width: 150px;
+}
+.link-border2 {
+  padding: 0;
+  width: 130px;
+}
+.link-border1:hover,
+.link-border1:focus {
+  border-bottom: #ff1e00 solid 2px;
+  width: 150px;
+  padding: 0;
+}
+.link-border1 span:hover,
+.link-border1 span:focus {
+  width: 120px;
+}
+.top-text-links a {
+  text-decoration: none;
+}
+/*
+
+
+
+media queries
+
+
+
+*/
+@media only screen and (min-width: 900px) {
+  .link-border1 {
+    width: 290px;
+  }
+  .link-border2 {
+    width: 250px;
+  }
+  .link-border2 span {
+    width: 195px;
+    margin-left: 2.5rem;
+  }
+
+  .link-border1:focus,
+  .link-border1:hover {
+    border-bottom: #ff1e00 solid 2px;
+    width: 290px;
+  }
+  .link-border1 span:focus,
+  .link-border1 span:hover {
+    border-bottom: #ff1e00 solid 2px;
+    width: 150px;
+  }
+}
