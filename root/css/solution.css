@@ -53,8 +53,8 @@ tittel
   flex-direction: column;
   max-width: 1100px;
   margin: 0 auto;
-  margin-top: 5rem;
-  margin-bottom: 10%;
+  margin-top: 4rem;
+  margin-bottom: 0;
 
 }
 .tittel-container h1 {
@@ -104,7 +104,7 @@ Main container
 .problems-tittel-container h2 {
   color: white;
   font-size: 2rem;
-  margin-left: 10%;
+  margin-left: 6.5%;
   margin-top: 3rem;
   margin-bottom: 2.5rem;
 }
@@ -152,8 +152,15 @@ Main container
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  flex: 1;
+  height: 33.33%;
+  padding: 2.5rem 0;
 }
+.problems-text-card-1 p,
+.problems-text-card-2 p,
+.problems-text-card-3 p {
+
+}
+
 .problems-text-card-1 {
   background-color: #FFFFFF;
 }
@@ -167,11 +174,9 @@ Main container
 .problems-text-period {
   display: flex;
   flex: 1;
-  margin-left: 4%;
-  margin-bottom: 4%;
-  margin-top: 4%;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 1%;
 }
 .bulletpoint {
   color: #FF1E00;
@@ -181,10 +186,9 @@ Main container
 .problems-text-content {
   display: flex;
   flex: 8;
-  margin-top: 4%;
-  margin-right: 4%;
-  margin-bottom: 4%;
   align-items: center;
+  margin-right: 2.5rem;
+
 }
 
 .problems-text-content-1 {
@@ -324,11 +328,12 @@ Media queries
   }
 
   #tittel {
-    height: 200px;
+    height: 125px;
     background-color: white;
   }
   .tittel-container h1{
     color: #051325;
+    margin-left: 6.5%;
   }
   .problems-tittel-container {
     height: 150px
