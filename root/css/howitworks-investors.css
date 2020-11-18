@@ -33,6 +33,9 @@ steps styling
   padding: 0;
   width: 150px;
 }
+.link-border1 a {
+  color: #9c9c9c;
+}
 .link-border2 {
   padding: 0;
   width: 130px;

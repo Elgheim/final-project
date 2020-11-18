@@ -1,6 +1,3 @@
-
-
-
 /*
 
 
@@ -12,7 +9,6 @@ Navbar styling
 
 
 */
-
 
 .nav-underline2 span:nth-child(2) {
   border-bottom: #ff1e00 solid 2px;
@@ -28,7 +24,6 @@ Navbar styling
   margin-left: 1rem;
 }
 
-
 /*
 
 
@@ -43,7 +38,7 @@ tittel
 #tittel {
   display: flex;
   width: 100%;
-  background-color: #021D3B;
+  background-color: #021d3b;
   margin-bottom: -1px;
 }
 
@@ -55,7 +50,6 @@ tittel
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 10%;
-
 }
 .tittel-container h1 {
   color: white;
@@ -67,8 +61,7 @@ tittel
   width: 95px;
   margin-left: 10%;
   margin-top: 1.5rem;
-  border: 2px solid #FF1E00;
-
+  border: 2px solid #ff1e00;
 }
 
 /*
@@ -89,7 +82,7 @@ Main container
   max-width: 1100px;
   margin: 0 auto;
 }
-.problems-main-container{
+.problems-main-container {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -97,7 +90,7 @@ Main container
 .problems-tittel-container {
   display: flex;
   width: 100%;
-  background-color: #021D3B;
+  background-color: #021d3b;
   justify-content: flex-start;
   align-items: center;
 }
@@ -118,7 +111,7 @@ Main container
 }
 .problem-text-image-desktop {
   display: none;
-  flex: 1.10;
+  flex: 1.1;
   background-image: url(../images/our-soloution/barn.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +119,7 @@ Main container
 }
 .beDone-text-image-desktop {
   display: none;
-  flex: 1.10;
+  flex: 1.1;
   background-image: url(../images/our-soloution/møte.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +127,7 @@ Main container
 }
 .soloution-text-image-desktop {
   display: none;
-  flex: 1.10;
+  flex: 1.1;
   background-image: url(../images/our-soloution/mockup.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,13 +148,13 @@ Main container
   flex: 1;
 }
 .problems-text-card-1 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .problems-text-card-2 {
-  background-color: #F5F7FB;
+  background-color: #f5f7fb;
 }
 .problems-text-card-3 {
-  background-color: #E3E6EE;
+  background-color: #e3e6ee;
 }
 
 .problems-text-period {
@@ -174,7 +167,7 @@ Main container
   align-items: flex-start;
 }
 .bulletpoint {
-  color: #FF1E00;
+  color: #ff1e00;
   font-size: 2.5rem;
 }
 
@@ -188,15 +181,14 @@ Main container
 }
 
 .problems-text-content-1 {
-  background-color:
+  background-color: ;
 }
 .problems-text-content-2 {
-  background-color: #F5F7FB;
+  background-color: #f5f7fb;
 }
 .problems-text-content-3 {
-  background-color: #E3E6EE;
+  background-color: #e3e6ee;
 }
-
 
 .beDone-main-container {
   display: flex;
@@ -209,8 +201,6 @@ Main container
   width: 100%;
   flex-direction: column;
 }
-
-
 
 /*
 
@@ -227,27 +217,24 @@ Call to Action
   display: flex;
   width: 100%;
   background-color: #051325;
-
 }
 .CTA-content-container {
   display: flex;
-  width: 80%;
-  max-width: 300px;
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  padding: 4rem 0;
 }
 
 .CTA-text {
   display: flex;
-  width: 60%;
-  margin-top: 10%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0 0 2rem;
 }
-.CTA-text p{
+.CTA-text p {
   color: white;
   font-size: 2.1rem;
 }
@@ -255,13 +242,19 @@ Call to Action
   border: none;
   color: #051325;
   background-color: white;
-  width: 60%;
-  height: 3rem;
-  margin-top: 8%;
-  margin-bottom: 20%;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
 }
+.CTA-button:hover {
+  background-color: #ff1e00;
+  color: white;
+}
+
 .CTA-button a {
   text-decoration: none;
+  font-weight: 500;
 }
 
 /*
@@ -315,24 +308,51 @@ Media queries
   .beDone-text-image-desktop {
     display: flex;
   }
+  /*
+
+  CTA
+
+  */
+  .CTA-content-container {
+    padding: 6rem 0;
+  }
 
   .CTA-button {
-    margin-bottom: 30%;
+    padding: 1.75rem 8.5rem;
   }
-  .CTA-text {
-    margin-top: 30%;
-  }
+  /*
 
+  Tittel
+
+  */
   #tittel {
     height: 200px;
     background-color: white;
   }
-  .tittel-container h1{
+  .tittel-container h1 {
     color: #051325;
   }
   .problems-tittel-container {
-    height: 150px
+    height: 150px;
   }
+}
+@media only screen and (min-width: 900px) {
+  /*
 
+  CTA
 
+  */
+  .CTA-content-container {
+    padding: 14rem 0;
+  }
+  .CTA-button {
+    padding: 1.75rem 8.5rem;
+  }
+  .CTA-text {
+    padding: 0 0 4rem;
+  }
+  .CTA-button,
+  .CTA-text p {
+    font-size: 2.5rem;
+  }
 }

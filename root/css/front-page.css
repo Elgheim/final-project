@@ -99,14 +99,11 @@ Description of the problem stying
   display: flex;
   flex-direction: column;
 }
-.problem-content-container {
-}
 .problem-text-container h1 {
-  padding: 2rem 0;
+  padding: 0 0 2rem;
 }
 .problem-text-container p {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding: 1rem 0 2rem;
 }
 .problem-text-color-container {
   color: #ff1e00;
@@ -172,7 +169,7 @@ The opportunity
   flex-direction: column;
   justify-content: center;
   background-image: url(../images/front-page/johannesburg2.png);
-  padding-bottom: 3%
+  padding-bottom: 3%;
 }
 .opportunity-stories-tittel {
   display: flex;
@@ -193,7 +190,6 @@ The opportunity
   margin: 0 auto;
   background-color: white;
   margin-bottom: 3%;
-
 }
 
 .opportunity-stories-container img {
@@ -218,27 +214,28 @@ The opportunity
 .opportunity-CTA-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
+  padding: 4rem 0;
   width: 80%;
   margin: 0 auto;
-  margin-top: 4%;
+}
+.opportunity-text {
   background-color: #051325;
-  margin-bottom: 4%;
+  padding: 0 0 2.5rem;
 }
 .opportunity-CTA-button {
   border: none;
   color: #051325;
   background-color: white;
-  width: 60%;
-  height: 3rem;
-  margin-top: 8%;
-  margin-bottom: 5%;
+  font-size: 2rem;
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 2rem 4rem;
 }
 .opportunity-CTA-button a {
   text-decoration: none;
 }
-
 
 /* opportunity fonts and sizes */
 
@@ -290,7 +287,32 @@ Media queries
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
+  /*
+
+  the problem
+
+  */
+
+  .problem-content-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem 0;
+  }
+  .problem-text-container {
+    padding-right: 2rem;
+    flex: 1;
+  }
+  .problem-image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  /*
+
+  the opportunity
+
+  */
   .opportunity-content-container {
     flex-direction: row;
   }
@@ -313,7 +335,7 @@ Media queries
   .opportunity-stories-text {
     margin-right: 5%;
   }
-  .opportunity-facts-container p{
+  .opportunity-facts-container p {
     margin-top: 10%;
   }
   .opportunity-main-stories {
@@ -322,7 +344,6 @@ Media queries
 
   .opportunity-stories-container {
     flex-direction: row;
-
   }
   .opportunity-stories-container img {
     max-width: 50%;
@@ -331,27 +352,32 @@ Media queries
     max-height: 70%;
   }
   .opportunity-CTA-container-background {
-    display: flex;
     background-color: #eb3c24;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
+  }
+  .opportunity-text {
+    background-color: white;
+    padding: 2rem 5rem 4rem;
+  }
+  .opportunity-text p {
+    color: black;
+    font-weight: 500;
+    text-align: center;
   }
   .opportunity-CTA-content {
-    padding: 1%;
-    width: 40%;
+    align-items: center;
+    padding: 5rem 5rem;
   }
-  .problem-content-container {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 2.5rem 0;
+  .opportunity-text a {
+    padding: 10rem 0;
   }
-  .problem-text-container {
-    padding-right: 7rem;
-    flex: 1;
+  .opportunity-CTA-button {
+    margin: 4.5rem 0 3rem;
+    padding: 2rem 10rem;
+    font-size: 2.5rem;
   }
-  .problem-image-container {
-    flex: 1;
+  .opportunity-CTA-button:hover {
+    background-color: #051325;
+    color: white;
   }
 }
 

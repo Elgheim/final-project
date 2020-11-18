@@ -191,7 +191,8 @@ Width styling
 .opportunity-content-container,
 .footer-content-container,
 .top-text-content-container,
-.steps-content-container {
+.steps-content-container,
+.CTA-content-container {
   width: 95%;
   margin: 0 auto;
   max-width: 1100px;
@@ -319,4 +320,28 @@ Navbar
 @media only screen and (min-width: px) {
 }
 @media only screen and (min-width: px) {
+}
+/*
+
+
+
+Keyframe for navbar elements, usikker på om jeg liker denne
+
+
+
+
+
+*/
+nav span {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

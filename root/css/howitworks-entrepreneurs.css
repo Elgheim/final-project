@@ -16,9 +16,13 @@ steps styliing
 .steps-number p {
   color: #ff1e00;
 }
-.link-border1 span,
-.link-border2 span {
+.link-border1 span {
   border-bottom: #ff1e00 solid 2px;
+  padding: 0.5rem 0 0;
+  margin-left: 1.5rem;
+}
+.link-border2 span {
+  border-bottom: #842ed9 solid 2px;
   padding: 0.5rem 0 0;
   margin-left: 1.5rem;
 }
@@ -39,9 +43,12 @@ steps styliing
   padding: 0;
   width: 130px;
 }
+.link-border2 a {
+  color: #9c9c9c;
+}
 .link-border2:hover,
 .link-border2:focus {
-  border-bottom: #ff1e00 solid 2px;
+  border-bottom: #842ed9 solid 2px;
   width: 130px;
   padding: 0;
 }
@@ -74,12 +81,12 @@ media queries
   }
   .link-border2:focus,
   .link-border2:hover {
-    border-bottom: #ff1e00 solid 2px;
+    border-bottom: #842ed9 solid 2px;
     width: 250px;
   }
   .link-border2 span:focus,
   .link-border2 span:hover {
-    border-bottom: #ff1e00 solid 2px;
+    border-bottom: #842ed9 solid 2px;
     width: 215px;
   }
 }

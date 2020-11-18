@@ -193,26 +193,7 @@ Media queries
     font-size: 2rem;
     padding: 0 2.5rem;
   }
-  .link-border1,
-  .link-border2 {
-    border: ;
-  }
-  .link-border1 {
-    width: 290px;
-  }
-  .link-border2 {
-    width: 250px;
-  }
-  .link-border2:focus,
-  .link-border2:hover {
-    border-bottom: #ff1e00 solid 2px;
-    width: 250px;
-  }
-  .link-border2 span:focus,
-  .link-border2 span:hover {
-    border-bottom: #ff1e00 solid 2px;
-    width: 215px;
-  }
+
   /*
 
   steps
@@ -248,10 +229,38 @@ Media queries
   }
   .link-border2 span:hover,
   .link-border2 span:focus {
-    border-bottom: #ff1e00 solid 2px;
+    border-bottom: #842ed9 solid 2px;
     margin-left: 2.25rem;
   }
   .image-sizing-container img {
     width: 90%;
+  }
+}
+/* 
+
+
+
+
+Keyframes for body-elementer og nav span på siden
+
+
+
+
+*/
+#steps-main-container,
+#create-project-main-container,
+#choose-contributors-main-container,
+.top-text-links span,
+nav span {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
