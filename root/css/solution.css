@@ -10,6 +10,7 @@ Navbar styling
 
 */
 
+
 .nav-underline2 span:nth-child(2) {
   border-bottom: #ff1e00 solid 2px;
   padding: 0.5rem 0 0;
@@ -53,13 +54,13 @@ tittel
 }
 .tittel-container h1 {
   color: white;
-  margin-left: 10%;
+  margin-left: 6.5%;
   font-size: 2.5rem;
 }
 
 .tittel-container hr {
   width: 95px;
-  margin-left: 10%;
+  margin-left: 6.5%;
   margin-top: 1.5rem;
   border: 2px solid #ff1e00;
 }
@@ -257,6 +258,11 @@ Media queries
 
 */
 @media only screen and (min-width: 600px) {
+  nav {
+    margin-bottom: 0.5rem;
+  }
+
+
   .nav-underline1 {
     width: 130px;
   }
