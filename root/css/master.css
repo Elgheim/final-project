@@ -27,9 +27,8 @@ Universal styling
 
 html {
   font-size: 10px;
-  background-color: #fffefb;
+  background-color: white;
 }
-
 *,
 *:before,
 *:after {
@@ -143,6 +142,11 @@ p {
   font-size: 1.6rem;
   line-height: 3rem;
   /* bortset fra The opportunity som har 18px georgia som p-tekst */
+}
+@media only screen and (min-width: 900px) {
+  p {
+    font-size: 1.8rem;
+  }
 }
 /*
 

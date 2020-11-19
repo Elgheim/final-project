@@ -100,7 +100,7 @@ Description of the problem stying
   flex-direction: column;
 }
 .problem-text-container h1 {
-  padding: 0 0 2rem;
+  padding: 0 0 3rem;
 }
 .problem-text-container p {
   padding: 1rem 0 2rem;
@@ -303,7 +303,7 @@ Media queries
     flex: 1;
   }
   .problem-image-container {
-    flex: 1;
+    flex: 1.25;
     display: flex;
     align-items: center;
   }
@@ -351,14 +351,14 @@ Media queries
     max-height: 70%;
   }
   .opportunity-CTA-container-background {
-    background-color: #eb3c24;
+    background-color: ;
   }
   .opportunity-text {
-    background-color: white;
+    background-color: #051325;
     padding: 2rem 5rem 4rem;
   }
   .opportunity-text p {
-    color: black;
+    color: white;
     font-weight: 500;
     text-align: center;
   }
@@ -373,14 +373,20 @@ Media queries
     margin: 4.5rem 0 3rem;
     padding: 2rem 10rem;
     font-size: 2.5rem;
+    background-color: #ff1e00;
+    color: white;
   }
   .opportunity-CTA-button:hover {
-    background-color: #051325;
-    color: white;
+    background-color: #ff1e00;
+    color: #051325;
   }
 }
 
-@media only screen and (min-width px) {
+@media only screen and (min-width: 1100px) {
+  .problem-image-container,
+  .problem-text-container {
+    flex: 1;
+  }
 }
 @media only screen and (min-width px) {
 }
