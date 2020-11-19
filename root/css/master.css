@@ -37,7 +37,6 @@ html {
   margin: 0;
 }
 
-
 /*
 
 
@@ -112,36 +111,34 @@ h3,
 p,
 a {
   color: #021d3b;
-  /* regular white is replacement color for other pages */
 }
-
 h1,
 h2,
 h3,
 p footer p,
-a {
+a,
+.opportunity-CTA-button,
+.opportunity-stories-tittel h2,
+.opportunity-stories-text p,
+.opportunity-CTA-content p,
+.opportunity-stories-tittel h2 {
   font-family: "DM Mono", monospace;
 }
-
 h1 {
   font-size: 3rem;
   font-weight: 500;
 }
-
 h2 {
   font-size: 2.5rem;
 }
-
 h3 {
   font-size: 1.6rem;
   font-weight: 400;
 }
-
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.6rem;
   line-height: 3rem;
-  /* bortset fra The opportunity som har 18px georgia som p-tekst */
 }
 @media only screen and (min-width: 900px) {
   p {
@@ -159,9 +156,6 @@ Footer styling
 
 
 */
-
-
-
 footer h2 {
   font-size: 2.5rem;
 }
@@ -197,7 +191,6 @@ Width styling
 .nav-container,
 .hero-display-width-container,
 .problem-content-container,
-.opportunity-content-container,
 .footer-content-container,
 .top-text-content-container,
 .steps-content-container,
@@ -206,7 +199,8 @@ Width styling
   margin: 0 auto;
   max-width: 1100px;
 }
-.hero-content-container {
+.hero-content-container,
+.opportunity-content-container {
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -215,7 +209,7 @@ Width styling
 
 
 
-Media queries
+600px MQ
 
 
 
@@ -227,8 +221,6 @@ Media queries
 Navbar
 
 */
-  nav {
-  }
   .nav-links {
     height: 30px;
 
@@ -268,7 +260,6 @@ Navbar
   .nav-underline3 span {
     margin-left: 0;
   }
-
   /*
 
 
@@ -311,24 +302,25 @@ Navbar
     font-size: 1.8rem;
   }
 }
+/*
+
+
+
+
+
+900px MQ
+
+
+
+
+
+*/
 @media only screen and (min-width: 900px) {
   .nav-underline1,
   .nav-underline2,
   .nav-underline3 {
     margin-left: 5rem;
   }
-}
-@media only screen and (min-width: px) {
-}
-@media only screen and (min-width: px) {
-}
-@media only screen and (min-width: px) {
-}
-@media only screen and (min-width: px) {
-}
-@media only screen and (min-width: px) {
-}
-@media only screen and (min-width: px) {
 }
 /*
 
