@@ -147,7 +147,7 @@ Main container
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  flex: 1;
+  flex: 1 0 auto;
   padding: 2.5rem 0;
   height: 33.3333%;
 }
@@ -178,6 +178,11 @@ Main container
   flex: 8;
   align-items: center;
   margin-right: 2.5rem;
+
+}
+.problems-text-content p {
+  width: 100%;
+  flex: 1 0 auto;
 }
 
 .beDone-main-container {
