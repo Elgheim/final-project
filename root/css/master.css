@@ -223,8 +223,7 @@ Navbar
 */
   .nav-links {
     height: 30px;
-
-    padding-left: 2rem;
+    padding-left: 0rem;
   }
   .nav-links a {
     padding: 0;
@@ -253,7 +252,7 @@ Navbar
   .nav-underline1,
   .nav-underline2,
   .nav-underline3 {
-    margin-left: 2rem;
+    margin-left: 1.9rem;
   }
   .nav-underline1 span,
   .nav-underline2 span,
