@@ -189,7 +189,7 @@ The opportunity
   flex-direction: column;
   align-items: flex-start;
   padding: 4rem 0;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 .opportunity-text {
@@ -204,9 +204,9 @@ The opportunity
   padding: 2rem 4rem;
 }
 .opportunity-CTA-button {
-  margin: 4.5rem 0 3rem;
-  padding: 2rem 10rem;
-  font-size: 2.5rem;
+  margin: 0 0 3rem;
+  padding: 2rem 3rem;
+  font-size: 2rem;
   background-color: #ff1e00;
   color: white;
 }
@@ -360,12 +360,14 @@ Media queries
   }
   .opportunity-text {
     background-color: #051325;
-    padding: 2rem 5rem 4rem;
+    padding: 2rem 5rem 2rem;
   }
   .opportunity-text p {
     color: white;
     font-weight: 500;
+    font-size: 2rem;
     text-align: center;
+    padding: 0 15rem 0;
   }
   .opportunity-CTA-content {
     align-items: center;
@@ -400,11 +402,20 @@ Media queries
   .problem-image-container {
     flex: 1.03;
   }
+  .opportunity-text p {
+    font-size: 2.5rem;
+    padding: 0 15rem 0;
+  }
   .opportunity-content-container {
     padding: 0 0 10rem;
   }
-
   footer {
     padding: 4rem 0 0;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .opportunity-text p {
+    padding: 0 35rem 0;
   }
 }

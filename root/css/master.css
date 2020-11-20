@@ -321,27 +321,19 @@ Navbar
     margin-left: 5rem;
   }
 }
-/*
 
-
-
-Keyframe for navbar elements, usikker på om jeg liker denne
-
-
-
-
-
-*/
-nav span {
-  animation: fadeIn 0.5s ease-in-out;
+.nav-link a {
+  position: relative;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.nav-link a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25 ease-out;
 }
