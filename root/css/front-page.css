@@ -52,7 +52,7 @@ Hero display styling
   width: 100%;
 }
 .hero-text-slogan {
-  padding: 0 0 2rem;
+  margin: 3rem 0;
 }
 .hero-content-text h1 {
   padding: 2rem 0;
@@ -203,6 +203,17 @@ The opportunity
   cursor: pointer;
   padding: 2rem 4rem;
 }
+.opportunity-CTA-button {
+  margin: 4.5rem 0 3rem;
+  padding: 2rem 10rem;
+  font-size: 2.5rem;
+  background-color: #ff1e00;
+  color: white;
+}
+.opportunity-CTA-button:hover {
+  background-color: white;
+  color: #ff1e00;
+}
 /*
 
 
@@ -215,6 +226,9 @@ Media queries
 
 */
 @media only screen and (min-width: 600px) {
+  .hero-text-slogan {
+    margin: 0;
+  }
   .problem-content-container {
     padding-top: 2.5rem;
   }
@@ -249,33 +263,31 @@ Media queries
 
   */
   .opportunity-main-stories {
-    flex-direction: column;
-  }
-
-  .opportunity-stories-text {
-    margin-right: 5%;
-  }
-  .opportunity-facts-container p {
-    margin-top: 10%;
-  }
-  .opportunity-main-stories {
-    padding-bottom: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   .opportunity-stories-container {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex: 0 1 45%;
   }
-  .opportunity-stories-container img {
-    max-width: 50%;
-    object-fit: cover;
+  .opportunity-stories-container:nth-child(4) {
+    display: flex;
+    justify-content: flex-start;
   }
-  .opportunity-stories-text {
-    justify-content: center;
-    align-items: center;
+  .opportunity-content-container {
+    flex-direction: column;
   }
-
-
+  .opportunity-main-facts,
+  .opportunity-main-stories {
+    flex: 1;
+  }
+  .opportunity-main-stories {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .opportunity-stories-tittel {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -288,7 +300,7 @@ Media queries
   .problem-content-container {
     display: flex;
     flex-direction: row-reverse;
-    padding: 4rem 0;
+    padding: 8rem 0;
   }
   .problem-text-container {
     padding-right: 2rem;
@@ -328,9 +340,7 @@ Media queries
     margin-top: 15%;
   }
   .opportunity-stories-text {
-    margin-right: 3%;
-
-    flex: 1;
+    margin-right: 5%;
   }
   .opportunity-facts-container p {
     margin-top: 10%;
@@ -343,20 +353,11 @@ Media queries
   }
   .opportunity-stories-container img {
     max-width: 50%;
-    height: 100%;
     object-fit: cover;
-    flex: 1;
-
-  }
-  .opportunity-stories-text p {
-    font-size: 1.6rem;
   }
   .opportunity-facts-container {
     max-height: 70%;
   }
-
-  /* CTA */
-
   .opportunity-text {
     background-color: #051325;
     padding: 2rem 5rem 4rem;
@@ -384,15 +385,26 @@ Media queries
     background-color: white;
     color: #ff1e00;
   }
+  .opportunity-content-container {
+    padding: 0 0 12rem;
+  }
+  footer {
+    padding: 6rem 0 0;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
-  .problem-image-container,
   .problem-text-container {
     flex: 1;
   }
-}
-@media only screen and (min-width px) {
-}
-@media only screen and (min-width px) {
+  .problem-image-container {
+    flex: 1.03;
+  }
+  .opportunity-content-container {
+    padding: 0 0 10rem;
+  }
+
+  footer {
+    padding: 4rem 0 0;
+  }
 }
