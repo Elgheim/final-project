@@ -195,6 +195,12 @@ The opportunity
 .opportunity-text {
   padding: 0 0 2.5rem;
 }
+.opportunity-text p:nth-child(1) {
+  color: #ff1e00;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0 0 1rem;
+}
 .opportunity-CTA-button {
   border: none;
   color: #051325;
@@ -309,6 +315,10 @@ Media queries
     display: flex;
     flex-direction: column;
   }
+  .opportunity-text p:nth-child(1) {
+    font-size: 2rem;
+    padding: 0 0 0.5rem;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -388,7 +398,6 @@ Media queries
 
   /* CTA */
 
-
   .opportunity-text {
     background-color: #051325;
     padding: 2rem 5rem 2rem;
@@ -421,8 +430,27 @@ Media queries
   .opportunity-content-container {
     padding: 0 0 12rem;
   }
+  .opportunity-text p:nth-child(1) {
+    font-size: 3rem;
+    padding: 0;
+  }
   footer {
     padding: 6rem 0 0;
+  }
+  .opportunity-main-facts,
+  .oportunity-main-stories {
+    flex: 1;
+    max-height: 1200px;
+    position: relative;
+  }
+  .opportunity-facts-container {
+    padding: 3.125rem 5rem;
+    margin: 2.75rem 3rem 0;
+  }
+  .opportunity-stories-master {
+    border: solid green;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -443,10 +471,14 @@ Media queries
   footer {
     padding: 4rem 0 0;
   }
-}
 
-@media only screen and (min-width: 1700px) {
-  .opportunity-text p {
-    padding: 0 35rem 0;
+  .opportunity-facts-container {
+    padding: 2.5rem 5rem;
+    margin: 2.75rem 3rem 0;
+  }
+  .opportunity-stories-master {
+    border: solid green;
+    margin: 0;
+    padding: 0;
   }
 }

@@ -60,18 +60,11 @@ nav {
   align-items: center;
   padding: 3rem 0 2rem;
 }
-
-.nav-logo {
-  height: 22px;
-  width: 75px;
-}
-
 .nav-links {
   display: flex;
   justify-content: space-between;
   padding: 2.5rem 0 0;
 }
-
 .nav-links a {
   font-size: 1rem;
   font-weight: 500;
@@ -80,7 +73,6 @@ nav {
   display: flex;
   margin: 0;
 }
-
 .nav-links-height {
   display: flex;
 }
@@ -120,7 +112,6 @@ a,
 .opportunity-CTA-button,
 .opportunity-stories-tittel h2,
 .opportunity-stories-text p,
-.opportunity-CTA-content p,
 .opportunity-stories-tittel h2 {
   font-family: "DM Mono", monospace;
 }
@@ -240,7 +231,10 @@ Navbar
   .nav-logo {
     height: 90%;
     width: auto;
+    display: flex;
+    align-items: flex-end;
     padding-left: 2rem;
+    margin: 2.25rem 0 0;
   }
   .nav-links {
     display: flex;
@@ -320,12 +314,9 @@ Navbar
   .nav-underline3 {
     margin-left: 5rem;
   }
-}
-
 .nav-link a {
   position: relative;
 }
-
 .nav-link a::before {
   content: "";
   position: absolute;

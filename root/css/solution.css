@@ -24,7 +24,6 @@ Navbar styling
   width: 75px;
   margin-left: 1rem;
 }
-
 /*
 
 
@@ -35,14 +34,12 @@ tittel
 
 
 */
-
 #tittel {
   display: flex;
   width: 100%;
   background-color: #021d3b;
   margin-bottom: -1px;
 }
-
 .tittel-container {
   display: flex;
   width: 100%;
@@ -57,7 +54,6 @@ tittel
   margin-left: 6.5%;
   font-size: 2.5rem;
 }
-
 .tittel-container hr {
   width: 95px;
   margin-left: 6.5%;
@@ -75,7 +71,6 @@ Main container
 
 
 */
-
 #main-container {
   display: flex;
   width: 100%;
@@ -110,29 +105,21 @@ Main container
   display: flex;
   flex-direction: row;
 }
-.problem-text-image-desktop {
-  display: none;
-  flex: 1.1;
-  background-image: url(../images/our-soloution/barn.png);
+.problem-text-image-desktop, .beDone-text-image-desktop, .soloution-text-image-desktop {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: none;
+  flex: 1.1;
+}  
+.problem-text-image-desktop {
+  background-image: url(../images/our-soloution/barn.png);
 }
 .beDone-text-image-desktop {
-  display: none;
-  flex: 1.1;
   background-image: url(../images/our-soloution/møte.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .soloution-text-image-desktop {
-  display: none;
-  flex: 1.1;
   background-image: url(../images/our-soloution/mockup.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .problems-text-main {
   display: flex;
@@ -147,9 +134,8 @@ Main container
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  flex: 1 0 auto;
   padding: 2.5rem 0;
-  height: 33.3333%;
+  height: 33.3%;
 }
 .problems-text-card-1 {
   background-color: #ffffff;
@@ -160,7 +146,6 @@ Main container
 .problems-text-card-3 {
   background-color: #e3e6ee;
 }
-
 .problems-text-period {
   display: flex;
   flex: 1;
@@ -172,31 +157,20 @@ Main container
   color: #ff1e00;
   font-size: 2.5rem;
 }
-
 .problems-text-content {
   display: flex;
   flex: 8;
   align-items: center;
   margin-right: 2.5rem;
-
 }
 .problems-text-content p {
   width: 100%;
   flex: 1 0 auto;
 }
-
-.beDone-main-container {
+.beDone-main-container, .solution-main-container {
   display: flex;
-  width: 100%;
   flex-direction: column;
 }
-
-.solution-main-container {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-}
-
 /*
 
 
@@ -225,7 +199,7 @@ Call to Action
 .CTA-text {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;fle
   flex-direction: column;
   padding: 0 0 2rem;
 }
@@ -336,13 +310,40 @@ Media queries
   }
   .tittel-container h1 {
     color: #051325;
-    margin-left: 6.5%;
   }
-  .problems-tittel-container {
-    height: 150px;
+  .tittel-container h1, .tittel-container hr, .problems-tittel-container h2{
+    margin-left: 5%;
+  }
+  .problems-tittel-container  {
+    align-items: flex-end;
+    padding: 2.5rem 0 1rem;
   }
 }
 @media only screen and (min-width: 900px) {
+  /*
+
+  tittel
+
+  */
+  #tittel h1 {
+    font-size: 4.3rem;
+  }
+  #tittel {
+    margin: 1.5rem 0 4rem;
+  }
+  /*
+
+  main container
+
+  */
+  
+  .problems-tittel-container  {
+    padding: 3rem 0 1.5rem;
+  }
+  .problems-tittel-container h2 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
   /*
 
   CTA
