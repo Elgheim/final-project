@@ -293,7 +293,7 @@ Media queries
     color: #051325;
   }
   .tittel-container h1, .tittel-container hr, .problems-tittel-container h2{
-    margin-left: 5%;
+    margin-left: 4.7%;
   }
   .problems-tittel-container  {
     align-items: flex-end;
