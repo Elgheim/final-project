@@ -82,6 +82,7 @@ Main container
   display: flex;
   width: 100%;
   flex-direction: column;
+
 }
 .problems-tittel-container {
   display: flex;
@@ -104,14 +105,16 @@ Main container
 .problems-text-card-container {
   display: flex;
   flex-direction: row;
+
 }
 .problem-text-image-desktop, .beDone-text-image-desktop, .soloution-text-image-desktop {
+  display: none;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: none;
   flex: 1.1;
-}  
+
+}
 .problem-text-image-desktop {
   background-image: url(../images/our-soloution/barn.png);
 }
@@ -121,21 +124,19 @@ Main container
 .soloution-text-image-desktop {
   background-image: url(../images/our-soloution/mockup.png);
 }
+
 .problems-text-main {
   display: flex;
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-  flex: 1;
+  flex-wrap: wrap;
+  flex: 2;
 }
 .problems-text-card-1,
 .problems-text-card-2,
 .problems-text-card-3 {
   display: flex;
   align-items: flex-start;
-  flex-direction: row;
   padding: 2.5rem 0;
-  height: 33.3%;
+  width: 100%;
 }
 .problems-text-card-1 {
   background-color: #ffffff;
@@ -163,10 +164,7 @@ Main container
   align-items: center;
   margin-right: 2.5rem;
 }
-.problems-text-content p {
-  width: 100%;
-  flex: 1 0 auto;
-}
+
 .beDone-main-container, .solution-main-container {
   display: flex;
   flex-direction: column;
@@ -269,24 +267,7 @@ Media queries
   .nav-underline3:focus {
     border-bottom: #ff1e00 solid 2px;
   }
-  .problems-text-card-1,
-  .problems-text-card-2,
-  .problems-text-card-3 {
-    padding: 2.5rem 0;
-    height: 33.33%;
-  }
-  .problems-image-mobile {
-    display: none;
-  }
-  .problem-text-image-desktop {
-    display: flex;
-  }
-  .soloution-text-image-desktop {
-    display: flex;
-  }
-  .beDone-text-image-desktop {
-    display: flex;
-  }
+
   /*
 
   CTA
@@ -319,6 +300,39 @@ Media queries
     padding: 2.5rem 0 1rem;
   }
 }
+@media only screen and (min-width: 750px) {
+  .problems-text-main {
+    flex: 1;
+  }
+  .problems-text-card-1,
+  .problems-text-card-2,
+  .problems-text-card-3 {
+    height: 33.33%;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+  }
+  .problems-image-mobile {
+    display: none;
+  }
+  .problem-text-image-desktop {
+    display: flex;
+  }
+  .soloution-text-image-desktop {
+    display: flex;
+  }
+  .beDone-text-image-desktop {
+    display: flex;
+  }
+
+  .problems-text-content {
+    margin: 2rem 2.5rem 6rem 0;
+  }
+  .problems-text-period {
+    margin: 2rem 0 0;
+  }
+
+}
 @media only screen and (min-width: 900px) {
   /*
 
@@ -336,7 +350,7 @@ Media queries
   main container
 
   */
-  
+
   .problems-tittel-container  {
     padding: 3rem 0 1.5rem;
   }
