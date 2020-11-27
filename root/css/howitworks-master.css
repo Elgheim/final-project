@@ -249,6 +249,7 @@ Media queries
     height: 100%;
   }
   .steps-image-column {
+    display: flex;
     order: 1;
     width: 90%;
   }
