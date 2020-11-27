@@ -122,6 +122,7 @@ Steps styling
   width: 50%;
 }
 .image-sizing-container img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
