@@ -1,35 +1,5 @@
-/*
-
-
-
-
-Navbar styling
-
-
-
-
-*/
-.nav-links a {
-  text-decoration: none;
-}
-.nav-underline1 span:nth-child(2) {
-  border-bottom: #ff1e00 solid 2px;
-  padding: 0.5rem 0 0;
-  width: 75px;
-  margin-left: 1rem;
-}
-.nav-underline2 span:nth-child(2),
-.nav-underline3 span:nth-child(2) {
-  border-bottom: #ffffff solid 2px;
-  padding: 0.5rem 0 0;
-  width: 75px;
-  margin-left: 1rem;
-}
-.nav-underline2:hover,
-.nav-underline2:focus,
-.nav-underline3:hover,
-.nav-underline3:focus {
-  border-bottom: #ff1e00 solid 2px;
+.nav-underline1 a:nth-child(1) {
+  border-bottom: 2px solid #051325;
 }
 /*
 
@@ -72,7 +42,7 @@ Hero display styling
 
 
 
-Description of the problem stying
+Description of the problem
 
 
 
@@ -177,8 +147,14 @@ The opportunity
 }
 .opportunity-stories-text a {
   font-size: 2rem;
-  color: #eb3c24;
-  text-decoration: underline;
+  color: #051325;
+  font-weight: 500;
+}
+.opportunity-stories-text a:hover,
+.opportunity-stories-text a:focus {
+  text-decoration: none;
+  background-color: #051325;
+  color: white;
 }
 .opportunity-CTA-container-background {
   display: flex;
@@ -196,7 +172,6 @@ The opportunity
   padding: 0 0 2.5rem;
 }
 .opportunity-text p:nth-child(1) {
-  color: #ff1e00;
   font-weight: 700;
   font-size: 2rem;
   padding: 0 0 1rem;
@@ -213,13 +188,17 @@ The opportunity
   margin: 0 0 3rem;
   padding: 2rem 3rem;
   font-size: 2rem;
+  background-color: white;
+  color: #051325;
+  text-decoration: none;
+}
+.opportunity-CTA-button:hover,
+.opportunity-CTA-button:focus {
   background-color: #ff1e00;
   color: white;
+  transition: 0.2s;
 }
-.opportunity-CTA-button:hover {
-  background-color: white;
-  color: #ff1e00;
-}
+
 /*
 
 
@@ -237,31 +216,6 @@ Media queries
   }
   .problem-content-container {
     padding-top: 2.5rem;
-  }
-  .nav-underline2 {
-    width: 142px;
-  }
-  .nav-underline3 {
-    width: 145px;
-  }
-
-  .nav-underline1 span:nth-child(2) {
-    border-bottom: #ff1e00 solid 2px;
-    padding: 0.5rem 0 0;
-    width: 128px;
-    margin-left: 0;
-  }
-  .nav-underline2 span:nth-child(2),
-  .nav-underline3 span:nth-child(2) {
-    border-bottom: #ffffff solid 2px;
-    padding: 0.5rem 0 0;
-    margin-left: 1rem;
-  }
-  .nav-underline2:hover,
-  .nav-underline2:focus,
-  .nav-underline3:hover,
-  .nav-underline3:focus {
-    border-bottom: #ff1e00 solid 2px;
   }
   /*
 
@@ -420,12 +374,8 @@ Media queries
     margin: 4.5rem 0 3rem;
     padding: 2rem 10rem;
     font-size: 2.5rem;
-    background-color: #ff1e00;
-    color: white;
   }
   .opportunity-CTA-button:hover {
-    background-color: white;
-    color: #ff1e00;
   }
   .opportunity-content-container {
     padding: 0 0 12rem;
@@ -434,9 +384,7 @@ Media queries
     font-size: 3rem;
     padding: 0;
   }
-  footer {
-    padding: 6rem 0 0;
-  }
+
   .opportunity-main-facts,
   .oportunity-main-stories {
     flex: 1;
@@ -467,9 +415,6 @@ Media queries
   }
   .opportunity-content-container {
     padding: 0 0 10rem;
-  }
-  footer {
-    padding: 4rem 0 0;
   }
 
   .opportunity-facts-container {

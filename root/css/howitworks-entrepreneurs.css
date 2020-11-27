@@ -1,8 +1,21 @@
+.link-border1 a:nth-child(1) {
+  border-bottom: 2px solid #ff1e00;
+}
+.link-border1 a:nth-child(1):hover,
+.link-border1 a:nth-child(1):focus {
+  border-bottom: 2px solid #ff1e00;
+  transition: 0.2s;
+}
+.link-border2 a:nth-child(1):hover,
+.link-border2 a:nth-child(1):focus {
+  border-bottom: 2px solid #842ed9;
+  transition: 0.2s;
+}
 /*
 
 
 
-steps styliing
+steps styling
 
 
 
@@ -16,77 +29,6 @@ steps styliing
 .steps-number p {
   color: #ff1e00;
 }
-.link-border1 span {
-  border-bottom: #ff1e00 solid 2px;
-  padding: 0.5rem 0 0;
-  margin-left: 1.5rem;
-}
-.link-border2 span {
-  border-bottom: #842ed9 solid 2px;
-  padding: 0.5rem 0 0;
-  margin-left: 1.5rem;
-}
-
-.link-border1 span {
-  width: 120px;
-}
-.link-border2 span {
-  width: 97px;
-  display: none;
-}
-.link-border1 {
-  padding: 0;
-  border: ;
-  width: 150px;
-}
-.link-border2 {
-  padding: 0;
-  width: 130px;
-}
-.link-border2 a {
-  color: #9c9c9c;
-}
-.link-border2:hover,
-.link-border2:focus {
-  border-bottom: #842ed9 solid 2px;
-  width: 130px;
-  padding: 0;
-}
-.link-border2 span:hover,
-.link-border2 span:focus {
-  width: 90px;
-}
 .top-text-links a {
   text-decoration: none;
-}
-/*
-
-
-
-media queries
-
-
-
-*/
-@media only screen and (min-width: 900px) {
-  .link-border1 {
-    width: 290px;
-  }
-  .link-border1 span {
-    width: 242px;
-    margin-left: 2.5rem;
-  }
-  .link-border2 {
-    width: 250px;
-  }
-  .link-border2:focus,
-  .link-border2:hover {
-    border-bottom: #842ed9 solid 2px;
-    width: 250px;
-  }
-  .link-border2 span:focus,
-  .link-border2 span:hover {
-    border-bottom: #842ed9 solid 2px;
-    width: 215px;
-  }
 }

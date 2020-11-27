@@ -1,28 +1,13 @@
-/*
-
-
-
-
-Navbar styling
-
-
-
-
-*/
-
-
-.nav-underline2 span:nth-child(2) {
-  border-bottom: #ff1e00 solid 2px;
-  padding: 0.5rem 0 0;
-  width: 75px;
-  margin-left: 1rem;
+.nav-underline2 a:nth-child(1) {
+  border-bottom: 2px solid #051325;
 }
-.nav-underline1 span:nth-child(2),
-.nav-underline3 span:nth-child(2) {
-  border-bottom: #ffffff solid 2px;
-  padding: 0.5rem 0 0;
-  width: 75px;
-  margin-left: 1rem;
+.nav-links a:active,
+.nav-links a:hover,
+.nav-links a:focus {
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+  border-bottom: 2px solid #ff1e00;
+  transition: 0.2s;
 }
 /*
 
@@ -60,7 +45,6 @@ tittel
   margin-top: 1.5rem;
   border: 2px solid #ff1e00;
 }
-
 /*
 
 
@@ -82,7 +66,6 @@ Main container
   display: flex;
   width: 100%;
   flex-direction: column;
-
 }
 .problems-tittel-container {
   display: flex;
@@ -105,15 +88,15 @@ Main container
 .problems-text-card-container {
   display: flex;
   flex-direction: row;
-
 }
-.problem-text-image-desktop, .beDone-text-image-desktop, .soloution-text-image-desktop {
+.problem-text-image-desktop,
+.beDone-text-image-desktop,
+.soloution-text-image-desktop {
   display: none;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1.1;
-
 }
 .problem-text-image-desktop {
   background-image: url(../images/our-soloution/barn.png);
@@ -124,7 +107,6 @@ Main container
 .soloution-text-image-desktop {
   background-image: url(../images/our-soloution/mockup.png);
 }
-
 .problems-text-main {
   display: flex;
   flex-wrap: wrap;
@@ -164,8 +146,8 @@ Main container
   align-items: center;
   margin-right: 2.5rem;
 }
-
-.beDone-main-container, .solution-main-container {
+.beDone-main-container,
+.solution-main-container {
   display: flex;
   flex-direction: column;
 }
@@ -177,9 +159,7 @@ Call to Action
 
 
 
-
 */
-
 #CTA-main-container {
   display: flex;
   width: 100%;
@@ -193,11 +173,10 @@ Call to Action
   align-items: center;
   padding: 4rem 0;
 }
-
 .CTA-text {
   display: flex;
   align-items: center;
-  justify-content: center;fle
+  justify-content: center;
   flex-direction: column;
   padding: 0 0 2rem;
 }
@@ -213,12 +192,14 @@ Call to Action
   cursor: pointer;
   font-family: "DM Mono", monospace;
   font-weight: 500;
+  text-decoration: none;
 }
-.CTA-button:hover {
+.CTA-button:hover,
+.CTA-button:focus {
   background-color: #ff1e00;
   color: white;
+  transition: 0.3s;
 }
-
 .CTA-button a {
   text-decoration: none;
   font-weight: 500;
@@ -235,39 +216,6 @@ Media queries
 
 */
 @media only screen and (min-width: 600px) {
-  nav {
-    margin-bottom: 0.5rem;
-  }
-
-
-  .nav-underline1 {
-    width: 130px;
-  }
-  .nav-underline3 {
-    width: 145px;
-    padding: 0;
-  }
-  .nav-underline2 span:nth-child(2) {
-    border-bottom: #ff1e00 solid 2px;
-    padding: 0.5rem 0 0;
-    width: 142px;
-    display: flex;
-    justify-content: center;
-    margin-left: 0;
-  }
-  .nav-underline1 span:nth-child(2),
-  .nav-underline3 span:nth-child(2) {
-    border-bottom: #ffffff solid 2px;
-    padding: 0.5rem 0 0;
-    margin-left: 1rem;
-  }
-  .nav-underline1:hover,
-  .nav-underline1:focus,
-  .nav-underline3:hover,
-  .nav-underline3:focus {
-    border-bottom: #ff1e00 solid 2px;
-  }
-
   /*
 
   CTA
@@ -276,7 +224,6 @@ Media queries
   .CTA-content-container {
     padding: 6rem 0;
   }
-
   .CTA-button {
     padding: 1.75rem 8.5rem;
   }
@@ -292,10 +239,12 @@ Media queries
   .tittel-container h1 {
     color: #051325;
   }
-  .tittel-container h1, .tittel-container hr, .problems-tittel-container h2{
+  .tittel-container h1,
+  .tittel-container hr,
+  .problems-tittel-container h2 {
     margin-left: 4.7%;
   }
-  .problems-tittel-container  {
+  .problems-tittel-container {
     align-items: flex-end;
     padding: 2.5rem 0 1rem;
   }
@@ -315,23 +264,17 @@ Media queries
   .problems-image-mobile {
     display: none;
   }
+  .soloution-text-image-desktop,
+  .beDone-text-image-desktop,
   .problem-text-image-desktop {
     display: flex;
   }
-  .soloution-text-image-desktop {
-    display: flex;
-  }
-  .beDone-text-image-desktop {
-    display: flex;
-  }
-
   .problems-text-content {
     margin: 2rem 2.5rem 6rem 0;
   }
   .problems-text-period {
     margin: 2rem 0 0;
   }
-
 }
 @media only screen and (min-width: 900px) {
   /*
@@ -351,7 +294,7 @@ Media queries
 
   */
 
-  .problems-tittel-container  {
+  .problems-tittel-container {
     padding: 3rem 0 1.5rem;
   }
   .problems-tittel-container h2 {
@@ -367,7 +310,7 @@ Media queries
     padding: 14rem 0;
   }
   .CTA-button {
-    padding: 1.75rem 8.5rem;
+    padding: 2.25rem 8.5rem;
   }
   .CTA-text {
     padding: 0 0 4rem;

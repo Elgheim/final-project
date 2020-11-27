@@ -6,8 +6,13 @@ Navbar
 
 
 */
-.nav-underline3 span:nth-child(2) {
-  border-bottom: #842ed9 solid 2px;
+.link-border2 a:nth-child(1) {
+  border-bottom: 2px solid #842ed9;
+}
+.link-border2 a:nth-child(1):hover,
+.link-border2 a:nth-child(1):focus {
+  border-bottom: 2px solid #842ed9;
+  transition: 0.2s;
 }
 /*
 
@@ -27,40 +32,6 @@ steps styling
 .steps-number p {
   color: #842ed9;
 }
-.link-border2 span {
-  border-bottom: #842ed9 solid 2px;
-  padding: 0.5rem 0 0;
-  margin-left: 1.5rem;
-}
-.link-border1 span {
-  width: 120px;
-  display: none;
-}
-.link-border2 span {
-  width: 97px;
-  display: block;
-}
-.link-border1 {
-  padding: 0;
-  width: 150px;
-}
-.link-border1 a {
-  color: #9c9c9c;
-}
-.link-border2 {
-  padding: 0;
-  width: 130px;
-}
-.link-border1:hover,
-.link-border1:focus {
-  border-bottom: #ff1e00 solid 2px;
-  width: 150px;
-  padding: 0;
-}
-.link-border1 span:hover,
-.link-border1 span:focus {
-  width: 120px;
-}
 .top-text-links a {
   text-decoration: none;
 }
@@ -74,25 +45,4 @@ media queries
 
 */
 @media only screen and (min-width: 900px) {
-  .link-border1 {
-    width: 290px;
-  }
-  .link-border2 {
-    width: 250px;
-  }
-  .link-border2 span {
-    width: 195px;
-    margin-left: 2.5rem;
-  }
-
-  .link-border1:focus,
-  .link-border1:hover {
-    border-bottom: #ff1e00 solid 2px;
-    width: 290px;
-  }
-  .link-border1 span:focus,
-  .link-border1 span:hover {
-    border-bottom: #ff1e00 solid 2px;
-    width: 150px;
-  }
 }
