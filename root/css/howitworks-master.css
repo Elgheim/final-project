@@ -77,6 +77,10 @@ Steps styling
 
 
 */
+#steps-main-container {
+  display: flex;
+  width: 100%;
+}
 
 .steps-text-column {
   display: flex;
@@ -116,15 +120,24 @@ Steps styling
 .steps-text p {
   padding: 1rem 0;
 }
+.steps-image-column {
+  display: flex;
+}
 .image-sizing-container {
   display: flex;
   justify-content: center;
-}
-.image-sizing-container img {
   width: 50%;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  border: solid red;
 }
+
+.image-sizing-container img {
+  max-width: 100%;
+  border: solid blue;
+  height: auto;
+  object-fit: contain;
+}
+
 /*
 
 
@@ -249,6 +262,7 @@ Media queries
     height: 100%;
   }
   .steps-image-column {
+    display: flex;
     order: 1;
   }
   .link-border1 span,
@@ -262,9 +276,11 @@ Media queries
     border-bottom: #842ed9 solid 2px;
     margin-left: 2.25rem;
   }
-  .image-sizing-container img {
+  .image-sizing-container {
+    display: flex;
     width: 90%;
   }
+
   #number-1,
   #number-2,
   #number-3 {
@@ -280,7 +296,7 @@ Media queries
     margin: 0 0 6.5rem;
   }
 }
-/* 
+/*
 
 
 

@@ -93,6 +93,7 @@ Description of the problem stying
 }
 .problem-image-container img {
   width: 100%;
+  height: auto;
 }
 
 /*
