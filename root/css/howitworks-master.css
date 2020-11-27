@@ -77,6 +77,10 @@ Steps styling
 
 
 */
+#steps-main-container {
+  display: flex;
+  width: 100%;
+}
 
 .steps-text-column {
   display: flex;
@@ -118,22 +122,22 @@ Steps styling
 }
 .steps-image-column {
   display: flex;
-  width: 100%;
-  border: solid red;
 }
 .image-sizing-container {
   display: flex;
   justify-content: center;
   width: 50%;
-  height: auto;
-  border: solid green;
   margin: 0 auto;
+  border: solid red;
 }
+
 .image-sizing-container img {
-  display: block;
-  max-width:100%;
+  max-width: 100%;
+  border: solid blue;
   height: auto;
+  object-fit: contain;
 }
+
 /*
 
 
