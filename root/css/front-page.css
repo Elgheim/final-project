@@ -63,6 +63,7 @@ Description of the problem
 }
 .problem-image-container img {
   width: 100%;
+  height: auto;
 }
 
 /*
