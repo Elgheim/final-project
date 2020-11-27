@@ -250,6 +250,7 @@ Media queries
   }
   .steps-image-column {
     order: 1;
+    width: 90%;
   }
   .link-border1 span,
   .link-border2 span {
@@ -263,7 +264,7 @@ Media queries
     margin-left: 2.25rem;
   }
   .image-sizing-container img {
-    width: 90%;
+    width: 100%;
     height: auto;
   }
   #number-1,
