@@ -119,9 +119,11 @@ Steps styling
 .image-sizing-container {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 .image-sizing-container img {
-  width: 50%;
+  max-width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
 }
@@ -269,8 +271,6 @@ Media queries
     width: 100%;
   }
   .image-sizing-container img {
-    display: block;
-    width: 100%;
     height: auto;
     max-width: 100%;
   }
