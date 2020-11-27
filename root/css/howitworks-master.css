@@ -264,7 +264,7 @@ Media queries
     margin-left: 2.25rem;
   }
   .image-sizing-container img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   #number-1,
