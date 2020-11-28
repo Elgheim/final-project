@@ -154,6 +154,14 @@ footer h2 {
 footer p {
   font-size: 2rem;
 }
+footer a {
+  text-decoration: underline #ff1e00;
+  font-weight: 500;
+}
+footer a:hover {
+  background-color: #051325;
+  color: white;
+}
 .footer-content-container {
   padding: 5rem 0;
 }

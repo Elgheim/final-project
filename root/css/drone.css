@@ -1,7 +1,6 @@
 p {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
-
 /*
 
 Header
@@ -9,80 +8,92 @@ Header
 */
 
 .bakgrunn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #021d3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #021d3b;
 }
-
 .hero-drones,
 .hero-mpesa,
 .hero-trends {
-    display: flex;
-    height: 40vh;
-    max-width: 1100px;
-    background-image: url(../images/front-page/drone.png);
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    padding: 4rem;
+  display: flex;
+  height: 35vh;
+  width: 100%;
+  background-image: url(../images/front-page/drone.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  padding: 4rem;
 }
 .hero-drones {
-    background-image: url(../images/front-page/drone.png);
+  background-image: url(../images/front-page/drone.png);
 }
 .hero-mpesa {
-  background-image: url(../images/front-page/selfie.png);
+  background-image: url(../images/article-images/africa.jpg);
 }
 .hero-trends {
   background-image: url(../images/front-page/tak.png);
 }
-
-
 .skjermleser {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 } /* Løsning hentet fra
 stackoverflow.com/questions/48913759/how-to-add-alt-text-to-background-images-making-background-images-accessible/#48913760 */
-
 .tittel {
-    display: block;
-    max-width: 700px;
-    margin-top: auto;
-    padding: 2rem;
-    background-color: white;
+  display: block;
+  max-width: 700px;
+  margin-top: auto;
+  padding: 2rem;
+  background-color: white;
 }
-
 /*
 
 Artikkel innhold
 
 */
-
 article {
-   display: flex;
-   justify-content: center;
-   padding: 4rem;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
 }
-
 .innhold {
-    max-width: 700px;
+  max-width: 700px;
 }
-
 .artikkelbilde {
-    width: 100%;
-    height: auto;
-    margin: 2rem 0rem 2rem 0rem
+  width: 100%;
+  height: auto;
+  margin: 2rem 0rem 2rem 0rem;
 }
 .kursive {
   font-style: italic;
 }
-
 .footer-content-container {
-    border-top: solid 2px#021d3b ;
+  border-top: solid 2px#021d3b;
+}
+@media only screen and (max-width: 1250px) {
+  .hero-drones,
+  .hero-mpesa,
+  .hero-trends {
+    height: 30vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hero-drones,
+  .hero-mpesa,
+  .hero-trends {
+    height: 25vh;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .hero-drones,
+  .hero-mpesa,
+  .hero-trends {
+    height: 20vh;
+  }
 }
