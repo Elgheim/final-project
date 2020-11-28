@@ -76,6 +76,7 @@ article {
 
 .artikkelbilde {
     width: 100%;
+    height: auto;
     margin: 2rem 0rem 2rem 0rem
 }
 .kursive {
