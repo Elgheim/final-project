@@ -222,11 +222,13 @@ Media queries
     display: flex;
     order: 1;
   }
+  .image-sizing-container {
+    width: 100%;
+
+  }
 }
 
-.image-sizing-container img {
-  width: 90%;
-}
+
 #number-1,
 #number-2,
 #number-3 {
