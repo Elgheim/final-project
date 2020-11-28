@@ -86,15 +86,24 @@ Main container
   display: flex;
   flex-direction: row;
 }
+
 .problem-text-image-desktop,
 .beDone-text-image-desktop,
 .soloution-text-image-desktop {
   display: none;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
   flex: 1.1;
 }
+.problem-text-image-desktop img,
+.beDone-text-image-desktop img,
+.soloution-text-image-desktop img {
+  object-fit: cover;
+  width: 100%;
+  object-position: right;
+}
+/*
 .problem-text-image-desktop {
   background-image: url(../images/our-soloution/barn.png);
 }
@@ -104,6 +113,7 @@ Main container
 .soloution-text-image-desktop {
   background-image: url(../images/our-soloution/mockup.png);
 }
+*/
 .problems-text-main {
   display: flex;
   flex-wrap: wrap;
