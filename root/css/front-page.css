@@ -101,7 +101,9 @@ The opportunity
   margin: 0 auto;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 6% 4% 6%;
+
+  width: 79%;
+  margin: 6%;
   padding: 6% 4% 6%;
 }
 .opportunity-facts-container h2,
@@ -391,6 +393,7 @@ Media queries
     flex: 1;
     max-height: 1200px;
     position: relative;
+    padding: 0 5rem;
   }
   .opportunity-facts-container {
     padding: 3.125rem 5rem;

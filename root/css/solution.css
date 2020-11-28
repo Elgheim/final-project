@@ -267,10 +267,10 @@ Media queries
     display: flex;
   }
   .problems-text-content {
-    margin: 2rem 2.5rem 6rem 0;
+    margin: 3rem 2.5rem 3rem 0;
   }
   .problems-text-period {
-    margin: 2rem 0 0;
+    margin: 3rem 0 0;
   }
 }
 @media only screen and (min-width: 900px) {
