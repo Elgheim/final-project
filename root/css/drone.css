@@ -15,7 +15,9 @@ Header
     background-color: #021d3b;
 }
 
-.hero {
+.hero-drones,
+.hero-mpesa,
+.hero-trends {
     display: flex;
     height: 40vh;
     max-width: 1100px;
@@ -25,6 +27,16 @@ Header
     justify-content: center;
     padding: 4rem;
 }
+.hero-drones {
+    background-image: url(../images/front-page/drone.png);
+}
+.hero-mpesa {
+  background-image: url(../images/front-page/selfie.png);
+}
+.hero-trends {
+  background-image: url(../images/front-page/tak.png);
+}
+
 
 .skjermleser {
     position: absolute;
@@ -65,6 +77,9 @@ article {
 .artikkelbilde {
     width: 100%;
     margin: 2rem 0rem 2rem 0rem
+}
+.kursive {
+  font-style: italic;
 }
 
 .footer-content-container {
