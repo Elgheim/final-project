@@ -232,7 +232,7 @@ Media queries
     margin-right: 5%;
   }
   .opportunity-facts-container p {
-    margin-top: 10%;
+    margin-top: 8%;
   }
   .opportunity-main-stories {
     padding-bottom: 5%;
@@ -322,10 +322,11 @@ Media queries
   .opportunity-facts-container {
     justify-content: center;
     align-items: flex-start;
-    height: 100%;
+    height: 75%;
     margin: 0 auto;
-    margin: 10%;
-    margin-top: 15%;
+    margin: 15%;
+    padding: 3.125rem 5rem;
+    margin: 2rem 3rem 0;
   }
   .opportunity-stories-text {
     margin-right: 3%;
@@ -348,9 +349,6 @@ Media queries
   }
   .opportunity-stories-text p {
     font-size: 1.6rem;
-  }
-  .opportunity-facts-container {
-    max-height: 70%;
   }
 
   /* CTA */
@@ -395,12 +393,7 @@ Media queries
     position: relative;
     padding: 0 5rem;
   }
-  .opportunity-facts-container {
-    padding: 3.125rem 5rem;
-    margin: 2.75rem 3rem 0;
-  }
   .opportunity-stories-master {
-    border: solid green;
     margin: 0;
     padding: 0;
   }
@@ -423,10 +416,9 @@ Media queries
 
   .opportunity-facts-container {
     padding: 2.5rem 5rem;
-    margin: 2.75rem 3rem 0;
+    margin: 5rem;
   }
   .opportunity-stories-master {
-    border: solid green;
     margin: 0;
     padding: 0;
   }
