@@ -114,14 +114,12 @@ Steps styling
   justify-content: center;
   width: 50%;
   margin: 0 auto;
-  border: solid red;
+  align-items: flex-start;
 }
 
 .image-sizing-container img {
   max-width: 100%;
-  border: solid blue;
   height: auto;
-  object-fit: contain;
 }
 
 /*
