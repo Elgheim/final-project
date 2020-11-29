@@ -60,6 +60,16 @@ Description of the problem
 .problem-text-container p {
   padding: 1rem 0 2rem;
 }
+.problem-text-container a {
+  text-decoration: none;
+  color: #021d3b;
+  border-bottom: 1px solid #ff1e00;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.problem-text-container a:hover {
+  background-color: #021d3b;
+  color: white;
+}
 .problem-text-color-container {
   color: #ff1e00;
 }
@@ -106,6 +116,16 @@ The opportunity
   width: 79%;
   margin: 6%;
   padding: 6% 4% 6%;
+}
+.opportunity-facts-container a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #ff1e00;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.opportunity-facts-container a:hover {
+  background-color: white;
+  color: #021d3b;
 }
 .opportunity-facts-container h2,
 .opportunity-facts-container p,
