@@ -208,10 +208,9 @@ Media queries
   }
   .steps-text-column,
   .steps-image-column {
-    border: solid red;
+
   }
   .steps-content-container {
-    border: solid green;
     max-height: 700px;
   }
   .steps-text h2 {
