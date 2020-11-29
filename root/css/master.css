@@ -150,7 +150,6 @@ Footer styling
 footer h2 {
   font-size: 2.5rem;
 }
-
 footer p {
   font-size: 2rem;
 }
@@ -158,7 +157,8 @@ footer a {
   text-decoration: underline #ff1e00;
   font-weight: 500;
 }
-footer a:hover {
+footer a:hover,
+footer a:focus {
   background-color: #051325;
   color: white;
 }
