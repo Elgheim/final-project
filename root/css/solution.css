@@ -94,11 +94,14 @@ Main container
   flex: 1.1;
 }
 .problem-text-image-desktop img,
-.beDone-text-image-desktop img,
 .soloution-text-image-desktop img {
   object-fit: cover;
   width: 100%;
   object-position: right;
+}
+.beDone-text-image-desktop img{
+  object-fit: cover;
+  width: 100%;
 }
 
 .problems-text-main {
