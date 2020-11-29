@@ -101,7 +101,6 @@ The opportunity
   margin: 0 auto;
   justify-content: space-between;
   align-items: flex-start;
-
   width: 79%;
   margin: 6%;
   padding: 6% 4% 6%;
@@ -143,7 +142,7 @@ The opportunity
   height: auto;
 }
 .opportunity-stories-text {
-  padding: 1rem 0.75rem 3rem;
+  padding: 0.75rem 0.75rem 1rem;
 }
 .opportunity-stories-text p {
   padding: 0 0 1rem;
@@ -226,7 +225,8 @@ Media queries
 
   */
   .opportunity-main-stories {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .opportunity-stories-text {
     margin-right: 5%;
@@ -249,6 +249,7 @@ Media queries
   .opportunity-stories-text {
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
   .opportunity-stories-container {
     flex: 0 1 45%;
@@ -325,11 +326,10 @@ Media queries
   .opportunity-facts-container {
     justify-content: center;
     align-items: flex-start;
-    height: 75%;
+    height: 69%;
     margin: 0 auto;
     margin: 15%;
-    padding: 3.125rem 5rem;
-    margin: 2rem 3rem 0;
+    padding: 3rem 4rem;
   }
   .opportunity-stories-text {
     margin-right: 3%;
@@ -357,13 +357,13 @@ Media queries
   .opportunity-main-stories {
     flex: 1;
   }
-  /* 
-  
+  /*
 
-  
-  CTA 
-  
-  
+
+
+  CTA
+
+
 
   */
   .opportunity-text {
@@ -424,6 +424,7 @@ Media queries
   .opportunity-facts-container {
     padding: 2.5rem 5rem;
     margin: 5rem;
+    margin-top: 7.5rem;
   }
   .opportunity-stories-master {
     margin: 0;
