@@ -98,3 +98,8 @@ article {
     height: 20vh;
   }
 }
+@media only screen and (max-width: 430px) {
+  .tittel h1 {
+    font-size: 2.5rem;
+  }
+}
