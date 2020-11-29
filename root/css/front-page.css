@@ -55,10 +55,10 @@ Description of the problem
   flex-direction: column;
 }
 .problem-text-container h1 {
-  padding: 0 0 3rem;
+  padding: 3rem 0 2rem;
 }
 .problem-text-container p {
-  padding: 1rem 0 2rem;
+  padding: 0 0 2rem;
 }
 .problem-text-container a {
   text-decoration: none;
@@ -66,7 +66,8 @@ Description of the problem
   border-bottom: 1px solid #ff1e00;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.problem-text-container a:hover {
+.problem-text-container a:hover,
+.problem-text-container a:focus {
   background-color: #021d3b;
   color: white;
 }
@@ -123,7 +124,8 @@ The opportunity
   border-bottom: 1px solid #ff1e00;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.opportunity-facts-container a:hover {
+.opportunity-facts-container a:hover,
+.opportunity-facts-container a:focus {
   background-color: white;
   color: #021d3b;
 }
@@ -351,7 +353,7 @@ Media queries
     height: 69%;
     margin: 0 auto;
     margin: 15%;
-    padding: 3rem 4rem;
+    padding: 5rem 4rem;
   }
   .opportunity-stories-text {
     margin-right: 3%;

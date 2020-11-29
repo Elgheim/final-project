@@ -219,10 +219,14 @@ Media queries
   .steps-number:nth-child(1) {
     padding-bottom: 10.5rem;
   }
-  #number-3,
+  #number-1 {
+    padding: 0 0 14rem;
+  }
   #number-2 {
-    padding-bottom: 17rem;
-    height: 100%;
+    padding: 0 0 20.25rem;
+  }
+  #number-3 {
+    padding: 0 0 23.5rem;
   }
   .steps-image-column {
     display: flex;
@@ -232,22 +236,33 @@ Media queries
     width: 100%;
   }
 }
-
+@media only screen and (min-width: 995px) {
+  #number-1 {
+    padding: 0 0 11.5rem;
+  }
+  #number-2 {
+    padding: 0 0 17.5rem;
+  }
+  #number-3 {
+    padding: 0 0 18rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #number-1 {
+    padding: 0 0 11.5rem;
+  }
+  #number-2 {
+    padding: 0 0 18.5rem;
+  }
+  #number-3 {
+    padding: 0 0 15.5rem;
+  }
+}
 #number-1,
 #number-2,
 #number-3 {
   padding-right: 3rem;
 }
-#number-1 {
-  margin: 0 0 4rem;
-}
-#number-2 {
-  margin: 0 0 3.5rem;
-}
-#number-3 {
-  margin: 0 0 6.5rem;
-}
-
 /*
 
 

@@ -79,7 +79,7 @@ Main container
   margin-bottom: 2.5rem;
 }
 .problems-image-mobile img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .problems-text-card-container {
@@ -99,7 +99,7 @@ Main container
   width: 100%;
   object-position: right;
 }
-.beDone-text-image-desktop img{
+.beDone-text-image-desktop img {
   object-fit: cover;
   width: 100%;
 }
@@ -185,7 +185,8 @@ Call to Action
   border: none;
   color: #051325;
   background-color: white;
-  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  padding: 2rem 3rem;
   cursor: pointer;
   font-family: "DM Mono", monospace;
   font-weight: 500;

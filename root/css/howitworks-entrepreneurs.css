@@ -32,3 +32,36 @@ steps styling
 .top-text-links a {
   text-decoration: none;
 }
+@media only screen and (min-width: 900px) {
+  #number-1 {
+    padding-bottom: 14rem;
+  }
+  #number-2 {
+    padding-bottom: 17.5rem;
+  }
+  #number-3 {
+    padding-bottom: 21rem;
+  }
+}
+@media only screen and (min-width: 995px) {
+  #number-1 {
+    padding-bottom: 12rem;
+  }
+  #number-2 {
+    padding-bottom: 17.5rem;
+  }
+  #number-3 {
+    padding-bottom: 20.75rem;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  #number-1 {
+    padding-bottom: 12rem;
+  }
+  #number-2 {
+    padding-bottom: 15rem;
+  }
+  #number-3 {
+    padding-bottom: 14.5rem;
+  }
+}
