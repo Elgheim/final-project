@@ -30,6 +30,9 @@ a,
 footer h2 {
   color: #051325;
 }
+.text-container {
+  margin-bottom: 8rem;
+}
 .text-container p {
   margin: 0 auto;
   padding: 4rem 0 1.5rem;

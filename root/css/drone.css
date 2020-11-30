@@ -77,6 +77,19 @@ article {
 .footer-content-container{
   border-top: solid 2px#021d3b;
 }
+article a{
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+article a {
+  text-decoration: none;
+  color: #021d3b;
+  border-bottom: 1px solid #ff1e00;
+}
+article a:hover,
+article a:focus {   
+  background-color: #021d3b;
+  color: white;
+}
 @media only screen and (max-width: 1250px) {
   .hero-drones,
   .hero-mpesa,
